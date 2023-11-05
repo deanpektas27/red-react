@@ -33,14 +33,14 @@ body {
   background-color: #CE3839;
   color: white;
   display: flex;
-  justify-content: space-between;
+
   align-items: stretch;
-  gap: 2rem;
-  padding: 0 1rem;
+  gap: 3rem;
+  padding: 0 2rem;
 }
 
-.site-logo {
-  font-size: 2rem;
+.site-logo img {
+  width: 120px;
 }
 
 .nav ul {
@@ -48,7 +48,8 @@ body {
   margin: 0;
   list-style: none;
   display: flex;
-  gap: 1rem;
+  gap: 2rem;
+  font-size: 27px;
 }
 
 .nav a {

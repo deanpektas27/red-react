@@ -4,7 +4,7 @@ export default function Navbar() {
     return (
         <nav className="nav font-face-gm">
 
-            <Link to="/" className="site-logo">RED</Link>
+            <Link to="/" className="site-logo"><img src="src/assets/red_logo.png" alt="RED Logo" /></Link>
             <ul>
                 <li>
                     <Link to="/">Home</Link>

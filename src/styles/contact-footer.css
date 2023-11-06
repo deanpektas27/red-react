@@ -1,0 +1,15 @@
+.contact-footer {
+    background-color: white;
+    color: black;
+}
+
+.contact-footer h2 {
+    margin-top: 0px;
+
+}
+
+.contact-footer button {
+    font-size: 35px;
+    background-color: #CE3839;
+    border-radius: 10px;
+}

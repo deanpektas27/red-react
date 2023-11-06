@@ -3,19 +3,23 @@ import ContactFooter from "./ContactFooter"
 export default function Home() {
     return (
         <>
-            <div>
-                <h2>WERE GRIT MEETS OPPORTUNITY</h2>
-                <p>
-                    The R.E.D Initiative is an empowering program 
-                    designed for underrepresented college students 
-                    who aspire to pursue careers in finance. 
-                    It offers practical training, real-world 
-                    experiences, and unwavering support.
-                </p>
+            <div className="main-headline">
+                <div className="container">
+                    <h2>WHERE GRIT MEETS OPPORTUNITY</h2>
+                    <p>
+                        The R.E.D Initiative is an empowering program 
+                        designed for underrepresented college students 
+                        who aspire to pursue careers in finance. 
+                        It offers practical training, real-world 
+                        experiences, and unwavering support.
+                    </p>
+                </div>
             </div>
-            <div>
-                <div>
+            <div className="body-content">
+                <div className="container">
                     <h2>JOIN OUR EMPOWERING COMMUNITY</h2>
+                </div>
+                <div>
                     <h2>BECOME A MENTEE</h2>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur 

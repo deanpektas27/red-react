@@ -5,6 +5,20 @@
   font-weight: bold;
 }
 
+@font-face {
+  font-family: "LTAsusHeavy";
+  src: local("LTAsusHeavy"),
+    url("./fonts/LTAsus/LTAsus-Heavy.ttf") format("truetype");
+  font-weight: bolder;
+}
+
+@font-face {
+  font-family: "LTAsusLight";
+  src: local("LTAsusLight"),
+    url("./fonts/LTAsus/LTAsus-Light.ttf") format("truetype");
+  font-weight: bolder;
+}
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;

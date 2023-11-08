@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import Container from "react-bootstrap/Container";
 import Navbar from './components/navbar'
 import Home from './components/home'
 import Program from './components/program'
@@ -17,7 +18,6 @@ function App() {
   return (
     <>
       <Navbar />
-      <div className="container">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/program" element={<Program />} />
@@ -27,7 +27,6 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
-      </div>
       <Footer />
     </>
   )

@@ -1,0 +1,38 @@
+.requirement-list {
+    text-align: left;
+    padding-top: 2rem!important;
+    padding-bottom: 0!important;
+}
+
+.apply-box h2 {
+    color: #CE3939;
+}
+
+.apply-box p {
+    color: black;
+}
+
+.apply-box {
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 4rem;
+}
+
+.faq-box {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    background-color: #CE3939;
+}
+
+.faq-box .title {
+    border-bottom: 3px solid rgba(255, 255, 255, 0.5);
+    padding-bottom: .5rem;
+}
+
+.faq-box h2 {
+    margin-top: 2rem
+}
+
+.faq-box p {
+    font-size: 2rem;
+}

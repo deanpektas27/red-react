@@ -1,10 +1,21 @@
 .font-face-gm {
   font-family: "LTAsusBold";
+  color: white;
 }
 
 .main-headline {
   background-color: #CE3939;
   text-align: center;
+}
+
+.btn .btn-primary .btn-lg {
+  padding: 1rem 5rem;
+  background-color: #CE3939;
+  border-color: #CE3939;
+  --bs-btn-active-bg: #CE3939;
+  --bs-btn-active-border-color: #CE3939;
+  border-radius: 60px;
+  font-family: "LTAsusBold"!important;
 }
 
 .main-headline div {

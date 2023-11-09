@@ -2,9 +2,6 @@
     color: #CE3939;
 }
 
-.contact-footer .row {
-    padding: 4rem 8rem;
-}
 
 .left-side h2 {
     font-family: "LTAsusHeavy";
@@ -15,7 +12,7 @@
     text-align: center;
 }
 
-.container .btn {
+.container .right-side .body-btn {
     color: white;
     padding: .5rem 3rem;
     background-color: #CE3939;

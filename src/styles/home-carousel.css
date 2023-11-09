@@ -1,0 +1,36 @@
+/* Carousel styling*/
+.carousel .carousel-inner .carousel-caption {
+    padding: 3rem;
+    padding-left: 0;
+    text-align: left;
+    left: 100px
+}
+
+.carousel .carousel-inner .carousel-caption h3 {
+    font-family: "LTAsusHeavy";
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.carousel .carousel-indicators button {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.carousel .carousel-inner .btn-lg, .row .body-text .body-btn {
+    padding: .3rem 3rem;
+    background-color: #CE3939;
+    border-color: #CE3939;
+    --bs-btn-active-bg: #CE3939;
+    --bs-btn-active-border-color: #CE3939;
+    border-radius: 60px;
+    font-family: "LTAsusBold"!important;
+    font-size:30px;
+}
+
+.carousel .carousel-control-prev, .carousel .carousel-control-next {
+    width: 100px;
+}

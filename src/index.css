@@ -19,6 +19,13 @@
   font-weight: bolder;
 }
 
+@font-face {
+  font-family: "LTAsusRegular";
+  src: local("LTAsusRegular"),
+    url("./fonts/LTAsus/LTAsus-Regular.ttf") format("truetype");
+  font-weight: bolder;
+}
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;

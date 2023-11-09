@@ -1,25 +1,30 @@
 .footer {
     background-color: black;
-
     width: 100%;
     bottom: 0;
     color: white;
-    font-size: 15px;
+    font-size:1rem;
     color: white;
-    display: flex;
-    align-items: stretch;
     gap: 3rem;
     padding: 2rem 2rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.col-lg-2 img {
+    margin: auto;
 }
 
 .footer ul {
     padding: 0;
-    margin: 0;
+    text-align: center;
+    margin-top: 1rem;
     margin-bottom: 1rem;
     list-style: none;
     display: flex;
+    justify-content: center;
     gap: 2rem;
-    font-size: 23px;
+
 
 }
   
@@ -28,17 +33,16 @@
     font-weight: 500;
     text-decoration: inherit;
     height: 100%;
-    display: flex;
     align-items: center;
     padding: .25rem;
 }
 
-.right-side p{
-    margin-bottom: 0;
-}
-
 .right-side {
     text-align: center;
+}
+
+.right-side p {
+    margin-top: 1rem;
 }
 
 .socials a {

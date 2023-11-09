@@ -1,6 +1,5 @@
 import { useState } from 'react'
-import Container from "react-bootstrap/Container";
-import Navbar from './components/navbar'
+import NavBar from './components/NavBar'
 import Home from './components/home'
 import Program from './components/program'
 import Footer from './components/footer'
@@ -17,7 +16,7 @@ function App() {
 
   return (
     <>
-      <Navbar />
+      <NavBar />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/program" element={<Program />} />

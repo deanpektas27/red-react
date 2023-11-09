@@ -50,7 +50,7 @@ body {
   margin: 0;
 }
 
-.nav {
+.navbar {
   background-color: #CE3839;
   color: white;
   display: flex;
@@ -64,7 +64,7 @@ body {
   width: 120px;
 }
 
-.nav ul {
+.nav .nav-link {
   padding: 0;
   margin: 0;
   list-style: none;
@@ -73,11 +73,10 @@ body {
   font-size: 27px;
 }
 
-.nav a {
+.navbar-collapse .navbar-nav .nav-link {
   color: inherit;
   font-weight: 500;
   text-decoration: inherit;
-  height: 100%;
   display: flex;
   align-items: center;
   padding: .25rem;

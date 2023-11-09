@@ -60,13 +60,23 @@ body {
   padding: 0 2rem;
 }
 
+.navbar-brand {
+  margin-right: 0!important;
+  margin-left: 2rem;
+}
+
 .site-logo img {
   width: 120px;
 }
 
+.navbar-nav {
+  font-family: "LTAsusHeavy";
+}
+
 .nav .nav-link {
   display: flex;
-  font-size: 27px;
+  font-size: 24px;
+  margin-right: 1.5rem;
 }
 
 .navbar-collapse .navbar-nav .nav-link {

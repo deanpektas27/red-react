@@ -1,0 +1,47 @@
+.involve-bg-image {
+    background-image: url('./../assets/04_Get_Involved/pexels-christina-morillo-1181405.jpg');
+}
+
+.involve-image1 {
+    background-image: url('./../assets/04_Get_Involved/pexels-darlene-alderson-7971229.jpg');
+}
+
+.involve-image2 {
+    background-image: url('./../assets/04_Get_Involved/pexels-diva-plavalaguna-6149784.jpg');
+    background-position-x:70%;
+}
+
+.involve-image3 {
+    background-image: url('./../assets/04_Get_Involved/pexels-anna-nekrashevich-7552568.jpg');
+    background-position-x:40%;
+}
+
+.involve-banner {
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y:40%;
+}
+
+.involve-images {
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y:40%;
+}
+
+.body-content p {
+    font-family: "LTAsusLight";
+    font-size: 2rem;
+}
+
+.body-content .apply-btn {
+    padding: .3rem 4rem;
+    background-color: #CE3939;
+    border-color: #CE3939;
+    --bs-btn-active-bg: #CE3939;
+    --bs-btn-active-border-color: #CE3939;
+    border-radius: 60px;
+    font-family: "LTAsusBold"!important;
+    font-size: 2rem;
+}

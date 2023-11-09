@@ -1,0 +1,26 @@
+.bg-image {
+    background-image: url('./../assets/02_Our_Program/pexels-edmond-dantès-8553867.jpg');
+}
+
+.program-banner {
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y:20%;
+}
+
+.main-headline .container p {
+    font-family: "LTAsusRegular"
+}
+
+.program-content h1 {
+    font-size: 3.5rem;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 2.5px;
+}
+
+.alternate-contact-footer {
+    font-family: "LTAsusHeavy";
+    color: black;
+    text-align: center;
+}

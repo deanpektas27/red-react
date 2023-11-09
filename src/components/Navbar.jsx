@@ -4,7 +4,7 @@ import {Navbar, Nav, NavItem, Container} from "react-bootstrap";
 export default function NavBar() {
     return (
         <>
-            <Navbar collapseOnSelect expand="lg" className="nav font-face-gm">
+            <Navbar collapseOnSelect expand="lg" variant="light" className="nav font-face-gm">
                 {/* <Container> */}
                     <Navbar.Brand as={Link} to="/" className='site-logo'><img src="src/assets/red_logo.png" alt="RED Logo" /></Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />

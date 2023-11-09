@@ -23,9 +23,9 @@
     list-style: none;
     display: flex;
     justify-content: center;
+    font-size: 1.5rem;
     gap: 2rem;
-
-
+    font-family: "LTAsusHeavy"
 }
   
 .footer a {
@@ -43,6 +43,7 @@
 
 .right-side p {
     margin-top: 1rem;
+    font-family: "LTAsusBold";
 }
 
 .socials a {

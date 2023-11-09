@@ -65,11 +65,7 @@ body {
 }
 
 .nav .nav-link {
-  padding: 0;
-  margin: 0;
-  list-style: none;
   display: flex;
-  gap: 2rem;
   font-size: 27px;
 }
 
@@ -80,4 +76,5 @@ body {
   display: flex;
   align-items: center;
   padding: .25rem;
+  
 }

@@ -35,9 +35,10 @@
 
 }
 
-.body-text p {
+.body-text .pt-3 {
     font-family: "LTAsusLight";
     font-size: 1.8rem;
     letter-spacing: 0px;
     line-height: 2.5rem;
+    text-align:left;
 }

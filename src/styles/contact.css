@@ -1,0 +1,26 @@
+.contact-bg-image {
+    background-image: url('./../assets/07_Contact_Us/pexels-cytonn-photography-955402.jpg');
+}
+
+.contact-banner {
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+    background-position-x: center;
+}
+
+.contact-form {
+    color: black;
+}
+
+.font-face-gm .contact-form .contact-btn {
+    padding: .3rem 4rem;
+    background-color: #CE3939;
+    border-color: #CE3939;
+    --bs-btn-active-bg: #CE3939;
+    --bs-btn-active-border-color: #CE3939;
+    border-radius: 60px;
+    font-family: "LTAsusBold"!important;
+    font-size: 2rem;
+}

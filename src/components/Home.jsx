@@ -31,67 +31,91 @@ export default function Home() {
                     <h2 className="body-headline font-face-gm p-5">JOIN OUR EMPOWERING COMMUNITY</h2>
                 </div>
                 <Container className="body-content-item pb-5">
-                    <div className="body-text">
-                        <h2 className="underlined-title">BECOME A MENTEE</h2>
-                        <p className="pt-3">
-                            Lorem ipsum dolor sit amet, consectetur 
-                            adipiscing elit, sed do eiusmod tempor 
-                            dolore incididunt ut labore et dolore 
-                            magna aliqua. Ut enim ad minim veniam, 
-                            duis aute irure dolor in.
-                        </p>
-                        <Button size="lg" className="body-btn">Learn More</Button>
-                    </div>
-                    <div className="body-image">
-                        <img className="d-block img-fluid" src={BodyImage1} alt="Body Image 1" />
-                    </div>
-                </Container>
-                <Container className="body-content-item pb-5 pt-5">
-                    <div className="body-image">
-                        <img className="d-block img-fluid" src={BodyImage2} alt="Body Image 1" />
-                    </div>
-                    <div className="body-text">
-                        <h2 className="underlined-title">BECOME A MENTOR</h2>
-                        <p className="pt-3">
-                            Lorem ipsum dolor sit amet, consectetur 
-                            adipiscing elit, sed do eiusmod tempor 
-                            dolore incididunt ut labore et dolore 
-                            magna aliqua. Ut enim ad minim veniam, 
-                            duis aute irure dolor in.
-                        </p>
-                        <Button size="lg" className="body-btn">Learn More</Button>
+                    <div className="row">
+                        <div className="col">
+                            <div className="body-text">
+                                <h2 className="underlined-title">BECOME A MENTEE</h2>
+                                <p className="pt-3">
+                                    Lorem ipsum dolor sit amet, consectetur 
+                                    adipiscing elit, sed do eiusmod tempor 
+                                    dolore incididunt ut labore et dolore 
+                                    magna aliqua. Ut enim ad minim veniam, 
+                                    duis aute irure dolor in.
+                                </p>
+                                <Button size="lg" className="body-btn">Learn More</Button>
+                            </div>
+                        </div>
+                        <div className="col">
+                            <div className="body-image">
+                                <img className="img-fluid" src={BodyImage1} alt="Body Image 1" />
+                            </div>
+                        </div>
                     </div>
                 </Container>
                 <Container className="body-content-item pb-5 pt-5">
-                    <div className="body-text">
-                        <h2 className="underlined-title">BECOME A PARTNER</h2>
-                        <p className="pt-3">
-                            Lorem ipsum dolor sit amet, consectetur 
-                            adipiscing elit, sed do eiusmod tempor 
-                            dolore incididunt ut labore et dolore 
-                            magna aliqua. Ut enim ad minim veniam, 
-                            duis aute irure dolor in.
-                        </p>
-                        <Button size="lg" className="body-btn">Find Talent</Button>
-                    </div>
-                    <div className="body-image">
-                        <img className="d-block img-fluid" src={BodyImage3} alt="Body Image 1" />
+                    <div className="row">
+                        <div className="col">
+                            <div className="body-image">
+                                <img className="d-block img-fluid" src={BodyImage2} alt="Body Image 1" />
+                            </div>
+                        </div>
+                        <div className="col">
+                            <div className="body-text">
+                                <h2 className="underlined-title">BECOME A MENTOR</h2>
+                                <p className="pt-3">
+                                    Lorem ipsum dolor sit amet, consectetur 
+                                    adipiscing elit, sed do eiusmod tempor 
+                                    dolore incididunt ut labore et dolore 
+                                    magna aliqua. Ut enim ad minim veniam, 
+                                    duis aute irure dolor in.
+                                </p>
+                                <Button size="lg" className="body-btn">Learn More</Button>
+                            </div>
+                        </div>
                     </div>
                 </Container>
                 <Container className="body-content-item pb-5 pt-5">
-                    <div className="body-image">
-                        <img className="d-block img-fluid" src={BodyImage4} alt="Body Image 1" />
+                    <div className="row">
+                        <div className="col">
+                            <div className="body-text">
+                                <h2 className="underlined-title">BECOME A PARTNER</h2>
+                                <p className="pt-3">
+                                    Lorem ipsum dolor sit amet, consectetur 
+                                    adipiscing elit, sed do eiusmod tempor 
+                                    dolore incididunt ut labore et dolore 
+                                    magna aliqua. Ut enim ad minim veniam, 
+                                    duis aute irure dolor in.
+                                </p>
+                                <Button size="lg" className="body-btn">Find Talent</Button>
+                            </div>
+                        </div>
+                        <div className="col">
+                            <div className="body-image">
+                                <img className="d-block img-fluid" src={BodyImage3} alt="Body Image 1" />
+                            </div>
+                        </div>
                     </div>
-                    <div className="body-text">
-                        <h2 className="underlined-title">MAKE A CHANGE</h2>
-                        <p className="pt-3">
-                            Lorem ipsum dolor sit amet, consectetur 
-                            adipiscing elit, sed do eiusmod tempor 
-                            dolore incididunt ut labore et dolore 
-                            magna aliqua. Ut enim ad minim veniam, 
-                            duis aute irure dolor in.
-                        </p>
-                        <Button size="lg" className="body-btn">Donate</Button>
+                </Container>
+                <Container className="body-content-item pb-5 pt-5">
+                    <div className="row">
+                        <div className="col">
+                            <div className="body-image">
+                                <img className="d-block img-fluid" src={BodyImage4} alt="Body Image 1" />
+                            </div>
+                        </div>
+                        <div className="col">
+                            <div className="body-text">
+                                <h2 className="underlined-title">MAKE A CHANGE</h2>
+                                <p className="pt-3">
+                                    Lorem ipsum dolor sit amet, consectetur 
+                                    adipiscing elit, sed do eiusmod tempor 
+                                    dolore incididunt ut labore et dolore 
+                                    magna aliqua. Ut enim ad minim veniam, 
+                                    duis aute irure dolor in.
+                                </p>
+                                <Button size="lg" className="body-btn">Donate</Button>
+                            </div>
+                        </div>
                     </div>
                 </Container>
             </div>

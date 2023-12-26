@@ -1,11 +1,12 @@
 import { Link } from 'react-router-dom';
 import {Navbar, Nav, NavItem, Container} from "react-bootstrap";
+import Logo from '../assets/red_logo.png'
 
 export default function NavBar() {
     return (
         <Navbar collapseOnSelect expand="lg" variant="light" className="nav font-face-gm">
             <Navbar.Brand className='site-logo' >
-                <img src="src/assets/red_logo.png" alt="RED Logo" />
+                <img src={Logo} alt="RED Logo" />
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id='responsive-navbar-nav'>

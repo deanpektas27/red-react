@@ -3,7 +3,6 @@ import Container from "react-bootstrap/Container"
 import {Row, Col, Button} from "react-bootstrap"
 import Arrow from './../assets/arrowpoint.svg'
 import './../styles/apply.css'
-import './../app.css'
 
 export default function Apply() {
     return (

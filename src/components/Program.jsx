@@ -30,63 +30,87 @@ export default function Program() {
                         <h2 className="body-headline font-face-gm p-5">HOW THE PROGRAM WORKS</h2>
                     </div>
                     <Container className='body-content-item pb-5'>
-                        <div className="body-text">
-                            <h1>1. APPLY</h1>
-                            <p className="pt-3">
-                                Lorem ipsum dolor sit amet, consectetur 
-                                adipiscing elit, sed do eiusmod tempor 
-                                enim incididunt ut labore et dolore magna 
-                                aliqua. Ut enim ad minim veniam, dunt sheitu 
-                                duis aute irure dolor in.
-                            </p>
-                        </div>
-                        <div className="body-image">
-                            <img className="d-block img-fluid" src={BodyImage1} alt="" />
+                        <div className="row">
+                            <div className="col">
+                                <div className="body-text">
+                                <h1>1. APPLY</h1>
+                                    <p className="pt-3">
+                                        Lorem ipsum dolor sit amet, consectetur 
+                                        adipiscing elit, sed do eiusmod tempor 
+                                        enim incididunt ut labore et dolore magna 
+                                        aliqua. Ut enim ad minim veniam, dunt sheitu 
+                                        duis aute irure dolor in.
+                                    </p>
+                                </div>
+                            </div>
+                            <div className="col">
+                                <div className="body-image">
+                                    <img className="d-block img-fluid" src={BodyImage1} alt="" />
+                                </div>
+                            </div>
                         </div>
                     </Container>   
                     <Container className='body-content-item pb-5 pt-5'>
-                        <div className="body-image">
-                            <img className="d-block img-fluid" src={BodyImage2} alt="" />
-                        </div>
-                        <div className="body-text">
-                            <h1>2. PREPARE</h1>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur 
-                                adipiscing elit, sed do eiusmod tempor 
-                                enim incididunt ut labore et dolore magna 
-                                aliqua. Ut enim ad minim veniam, dunt sheitu 
-                                duis aute irure dolor in.
-                            </p>
+                        <div className="row">
+                            <div className="col">
+                                <div className="body-image">
+                                    <img className="d-block img-fluid" src={BodyImage2} alt="" />
+                                </div>
+                            </div>
+                            <div className="col">
+                                <div className="body-text">
+                                    <h1>2. PREPARE</h1>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur 
+                                        adipiscing elit, sed do eiusmod tempor 
+                                        enim incididunt ut labore et dolore magna 
+                                        aliqua. Ut enim ad minim veniam, dunt sheitu 
+                                        duis aute irure dolor in.
+                                    </p>
+                                </div>
+                            </div>
                         </div>
                     </Container>
                     <Container className='body-content-item pb-5 pt-5'>   
-                        <div className="body-text">
-                            <h1>3. LEARN</h1>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur 
-                                adipiscing elit, sed do eiusmod tempor 
-                                enim incididunt ut labore et dolore magna 
-                                aliqua. Ut enim ad minim veniam, dunt sheitu 
-                                duis aute irure dolor in.
-                            </p>
-                        </div>
-                        <div className="body-image">
-                            <img className="d-block img-fluid" src={BodyImage3} alt="" />
+                        <div className="row">
+                            <div className="col">
+                                <div className="body-text">
+                                    <h1>3. LEARN</h1>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur 
+                                        adipiscing elit, sed do eiusmod tempor 
+                                        enim incididunt ut labore et dolore magna 
+                                        aliqua. Ut enim ad minim veniam, dunt sheitu 
+                                        duis aute irure dolor in.
+                                    </p>
+                                </div>
+                            </div>
+                            <div className="col">
+                                <div className="body-image">
+                                    <img className="d-block img-fluid" src={BodyImage3} alt="" />
+                                </div>
+                            </div>
                         </div>
                     </Container>
                     <Container className='body-content-item pb-5 pt-5'>
-                        <div className="body-image">
-                            <img className="d-block img-fluid" src={BodyImage4} alt="" />
-                        </div>
-                        <div className="body-text">
-                            <h1>4. EXPLORE</h1>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur 
-                                adipiscing elit, sed do eiusmod tempor 
-                                enim incididunt ut labore et dolore magna 
-                                aliqua. Ut enim ad minim veniam, dunt sheitu 
-                                duis aute irure dolor in.
-                            </p>
+                        <div className="row">
+                            <div className="col">
+                                <div className="body-image">
+                                    <img className="d-block img-fluid" src={BodyImage4} alt="" />
+                                </div>
+                            </div>
+                            <div className="col">
+                                <div className="body-text">
+                                    <h1>4. EXPLORE</h1>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur 
+                                        adipiscing elit, sed do eiusmod tempor 
+                                        enim incididunt ut labore et dolore magna 
+                                        aliqua. Ut enim ad minim veniam, dunt sheitu 
+                                        duis aute irure dolor in.
+                                    </p>
+                                </div>
+                            </div>
                         </div>
                     </Container>    
                 </div>

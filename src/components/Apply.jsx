@@ -32,12 +32,12 @@ export default function Apply() {
                 <div className="body-content">
                     <div className="container p-2">
                         <h2 className="body-headline font-face-gm p-5">WHAT TO EXPECT</h2>
-                    </div>
+                    
                     <div className="container p-2 pb-4">
                         <div className="row">
                             <div className="col">
                                 <h2 className="m-auto mb-4 underline">DURING R.E.D INITIATIVE</h2>
-                                <div className="container">
+                                <div className="container expect-content-container">
                                     <h2><span id="triangle-bullet">{`\u2023`}</span> 14 weeks of hybrid mentoring</h2>
                                     <p id="what-to-expect-content">
                                         Each week, you will meet with your 
@@ -54,7 +54,7 @@ export default function Apply() {
                             </div>
                             <div className="col">
                                 <h2 className="m-auto mb-4 underline">AFTER R.E.D INITIATIVE</h2>
-                                <div className="container">
+                                <div className="container expect-content-container">
                                     <h3><span id="triangle-bullet">{`\u2023`}</span> 12 months of follow up</h3>
                                     <p id="what-to-expect-content">
                                         Each week, you will meet with your mentor in a 
@@ -70,6 +70,7 @@ export default function Apply() {
                                 </div>
                             </div>
                         </div>
+                    </div>
                     </div>
                     {/* <Container>
                         <Row className="what-to-expect">

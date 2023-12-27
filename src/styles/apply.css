@@ -53,7 +53,16 @@
     line-height: 2rem;
     text-align: left!important;
     margin-bottom: 2.5rem;
+    margin-left:5%;
+    margin-right: 5%;
 }
+
+@media screen and (min-width: 992px) {
+    .expect-content-container {
+        padding-left:18%!important;
+    }
+}
+
 
 /* .what-to-expect .what-to-expect-left-content p, .what-to-expect .what-to-expect-right-content p {
     font-family: "LTAsusLight";
@@ -68,10 +77,10 @@
     padding-right: 1rem;
 } */
 
-.what-to-expect-right-content {
+/* .what-to-expect-right-content {
     padding-left: 4rem;
     padding-right: 4rem;
-}
+} */
 
 .apply-box {
     text-align: center;

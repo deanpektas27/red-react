@@ -16,7 +16,7 @@ export default function Footer() {
                     </div> */}
                     <div className="row">
                         <div className="col-lg-2">
-                            <img className="img-fluid d-block" src={Logo} alt="RED Logo" />
+                            <img id="footer-logo" className="img-fluid d-block" src={Logo} alt="RED Logo" />
                         </div>
                         <div className="col-lg-10 footer-nav ">
                             <ul>

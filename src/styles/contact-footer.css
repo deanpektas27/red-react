@@ -1,15 +1,25 @@
-.contact-footer {
-    background-color: white;
+.highlighted-text {
+    color: #CE3939;
+}
+
+
+.left-side h2 {
+    font-family: "LTAsusHeavy";
+}
+
+.left-side h2, .left-side p {
     color: black;
+    text-align: center;
 }
 
-.contact-footer h2 {
-    margin-top: 0px;
-
-}
-
-.contact-footer button {
-    font-size: 35px;
-    background-color: #CE3839;
-    border-radius: 10px;
+.container .right-side .body-btn {
+    color: white;
+    padding: .5rem 3rem;
+    background-color: #CE3939;
+    border-color: #CE3939;
+    --bs-btn-active-bg: #CE3939;
+    --bs-btn-active-border-color: #CE3939;
+    border-radius: 60px;
+    font-family: "LTAsusBold"!important;
+    font-size:30px;
 }

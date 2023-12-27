@@ -1,11 +1,22 @@
-import ContactFooter from "./ContactFooter"
+import ContactFooter from "./ContactFooter";
+import HomeCarousel from "./HomeCarousel";
+import Container from 'react-bootstrap/Container';
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
+import Button from "react-bootstrap/Button";
+import BodyImage1 from './../assets/01_Home_page/pexels-darlene-alderson-7970846.jpg';
+import BodyImage2 from './../assets/01_Home_page/pexels-alexander-suhorucov-6457488.jpg';
+import BodyImage3 from './../assets/01_Home_page/pexels-thirdman-7994325.jpg';
+import BodyImage4 from './../assets/01_Home_page/pexels-edmond-dantès-8553862.jpg';
+import './../styles/home.css'
 
 export default function Home() {
     return (
         <>
+            <HomeCarousel />
             <div className="main-headline">
                 <div className="container">
-                    <h2>WHERE GRIT MEETS OPPORTUNITY</h2>
+                    <h2 className="font-face-gm">WHERE GRIT MEETS OPPORTUNITY</h2>
                     <p>
                         The R.E.D Initiative is an empowering program 
                         designed for underrepresented college students 
@@ -16,53 +27,97 @@ export default function Home() {
                 </div>
             </div>
             <div className="body-content">
-                <div className="container">
-                    <h2>JOIN OUR EMPOWERING COMMUNITY</h2>
+                <div className="container p-2">
+                    <h2 className="body-headline font-face-gm p-5">JOIN OUR EMPOWERING COMMUNITY</h2>
                 </div>
-                <div>
-                    <h2>BECOME A MENTEE</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur 
-                        adipiscing elit, sed do eiusmod tempor 
-                        dolore incididunt ut labore et dolore 
-                        magna aliqua. Ut enim ad minim veniam, 
-                        duis aute irure dolor in.
-                    </p>
-                    <button>Learn More</button>
-                </div>
-                <div>
-                    <h2>BECOME A MENTOR</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur 
-                        adipiscing elit, sed do eiusmod tempor 
-                        dolore incididunt ut labore et dolore 
-                        magna aliqua. Ut enim ad minim veniam, 
-                        duis aute irure dolor in.
-                    </p>
-                    <button>Volunteer</button>
-                </div>
-                <div>
-                    <h2>BECOME A PARTNER</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur 
-                        adipiscing elit, sed do eiusmod tempor 
-                        dolore incididunt ut labore et dolore 
-                        magna aliqua. Ut enim ad minim veniam, 
-                        duis aute irure dolor in.
-                    </p>
-                    <button>Find Talent</button>
-                </div>
-                <div>
-                    <h2>MAKE A CHANGE</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur 
-                        adipiscing elit, sed do eiusmod tempor 
-                        dolore incididunt ut labore et dolore 
-                        magna aliqua. Ut enim ad minim veniam, 
-                        duis aute irure dolor in.
-                    </p>
-                    <button>Donate</button>
-                </div>
+                <Container className="body-content-item pb-5">
+                    <div className="row">
+                        <div className="col">
+                            <div className="body-text">
+                                <h2 className="underlined-title">BECOME A MENTEE</h2>
+                                <p className="pt-3">
+                                    Lorem ipsum dolor sit amet, consectetur 
+                                    adipiscing elit, sed do eiusmod tempor 
+                                    dolore incididunt ut labore et dolore 
+                                    magna aliqua. Ut enim ad minim veniam, 
+                                    duis aute irure dolor in.
+                                </p>
+                                <Button size="lg" className="body-btn">Learn More</Button>
+                            </div>
+                        </div>
+                        <div className="col">
+                            <div className="body-image">
+                                <img className="img-fluid" src={BodyImage1} alt="Body Image 1" />
+                            </div>
+                        </div>
+                    </div>
+                </Container>
+                <Container className="body-content-item pb-5 pt-5">
+                    <div className="row">
+                        <div className="col">
+                            <div className="body-image">
+                                <img className="d-block img-fluid" src={BodyImage2} alt="Body Image 1" />
+                            </div>
+                        </div>
+                        <div className="col">
+                            <div className="body-text">
+                                <h2 className="underlined-title">BECOME A MENTOR</h2>
+                                <p className="pt-3">
+                                    Lorem ipsum dolor sit amet, consectetur 
+                                    adipiscing elit, sed do eiusmod tempor 
+                                    dolore incididunt ut labore et dolore 
+                                    magna aliqua. Ut enim ad minim veniam, 
+                                    duis aute irure dolor in.
+                                </p>
+                                <Button size="lg" className="body-btn">Learn More</Button>
+                            </div>
+                        </div>
+                    </div>
+                </Container>
+                <Container className="body-content-item pb-5 pt-5">
+                    <div className="row">
+                        <div className="col">
+                            <div className="body-text">
+                                <h2 className="underlined-title">BECOME A PARTNER</h2>
+                                <p className="pt-3">
+                                    Lorem ipsum dolor sit amet, consectetur 
+                                    adipiscing elit, sed do eiusmod tempor 
+                                    dolore incididunt ut labore et dolore 
+                                    magna aliqua. Ut enim ad minim veniam, 
+                                    duis aute irure dolor in.
+                                </p>
+                                <Button size="lg" className="body-btn">Find Talent</Button>
+                            </div>
+                        </div>
+                        <div className="col">
+                            <div className="body-image">
+                                <img className="d-block img-fluid" src={BodyImage3} alt="Body Image 1" />
+                            </div>
+                        </div>
+                    </div>
+                </Container>
+                <Container className="body-content-item pb-5 pt-5">
+                    <div className="row">
+                        <div className="col">
+                            <div className="body-image">
+                                <img className="d-block img-fluid" src={BodyImage4} alt="Body Image 1" />
+                            </div>
+                        </div>
+                        <div className="col">
+                            <div className="body-text">
+                                <h2 className="underlined-title">MAKE A CHANGE</h2>
+                                <p className="pt-3">
+                                    Lorem ipsum dolor sit amet, consectetur 
+                                    adipiscing elit, sed do eiusmod tempor 
+                                    dolore incididunt ut labore et dolore 
+                                    magna aliqua. Ut enim ad minim veniam, 
+                                    duis aute irure dolor in.
+                                </p>
+                                <Button size="lg" className="body-btn">Donate</Button>
+                            </div>
+                        </div>
+                    </div>
+                </Container>
             </div>
             <ContactFooter />
         </>

@@ -1,0 +1,25 @@
+.about-bg-image {
+    background-image: url('./../assets/06_About/pexels-edmond-dantès-8555677_1.jpg');
+}
+
+.about-banner {
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y:40%;
+}
+
+.body-content p {
+    text-align: center;
+}
+
+.body-content .about-image{
+    background-image: url('./../assets/06_About/Nick.jpg');
+    height: 60vh;
+    margin-left: auto;
+    margin-right: auto;
+    background-position: top;
+    background-repeat: no-repeat;
+
+}
+

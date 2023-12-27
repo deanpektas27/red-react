@@ -1,0 +1,44 @@
+.main-headline {
+    background-color: #CE3939;
+    text-align: center;
+    color: white;
+}
+
+.main-headline h2 {
+    margin-bottom: 2rem;
+}
+
+.main-headline p {
+    font-family: "LTAsusLight"
+}
+
+.body-content {
+    background-color: #182F84;
+    color: white;
+}
+
+.body-headline {
+    text-align: center;
+}
+
+.body-content-item {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.body-text {
+    /* margin-left: 1rem;
+    margin-right: 1rem; */
+
+}
+
+.body-text .pt-3 {
+    font-family: "LTAsusLight";
+    font-size: 1.8rem;
+    letter-spacing: 0px;
+    line-height: 2.5rem;
+    text-align:left;
+}

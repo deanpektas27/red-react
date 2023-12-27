@@ -1,0 +1,134 @@
+.apply-bg-image {
+    background-image: url('./../assets/03_Apply&FAQ/pexels-darlene-alderson-7970846.jpg');
+}
+
+.apply-bg-image-2 {
+    background-image: url('./../assets/03_Apply&FAQ/desola-lanre-ologun-IgUR1iX0mqM-unsplash.jpg');
+}
+
+.apply-banner {
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y:20%;
+}
+
+.apply-banner-2 {
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y:60%;
+    background-position-x:60%;
+}
+
+.requirement-list {
+    text-align: left;
+    padding-top: 2rem!important;
+    padding-bottom: 0!important;
+}
+
+/* .what-to-expect h2 {
+    font-family: "LTAsusBold";
+    padding-bottom: 5px;
+    border-bottom-style: solid;
+    border-bottom-width: 3.1px;
+    width: fit-content;
+} */
+
+.underline {
+    font-family: "LTAsusBold";
+    padding-bottom: 5px;
+    border-bottom-style: solid;
+    border-bottom-width: 3.1px;
+    width: fit-content;
+}
+
+.what-to-expect h3 {
+    font-family: "LTAsusBold";
+}
+
+#what-to-expect-content {
+    font-family: "LTAsusLight";
+    font-size: 1.8rem;
+    line-height: 2rem;
+    text-align: left!important;
+    margin-bottom: 2.5rem;
+    margin-left:5%;
+    margin-right: 5%;
+}
+
+@media screen and (min-width: 992px) {
+    .expect-content-container {
+        padding-left:18%!important;
+    }
+}
+
+
+/* .what-to-expect .what-to-expect-left-content p, .what-to-expect .what-to-expect-right-content p {
+    font-family: "LTAsusLight";
+    font-size: 1.8rem;
+    line-height: 2rem;
+    text-align: left!important;
+    margin-bottom: 2.5rem
+} */
+
+/* .what-to-expect-left-content {
+    padding-left: 1rem;
+    padding-right: 1rem;
+} */
+
+/* .what-to-expect-right-content {
+    padding-left: 4rem;
+    padding-right: 4rem;
+} */
+
+.apply-box {
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 2.3rem;
+}
+
+.apply-box h2 {
+    color: #CE3939;
+    font-family: "LTAsusBold"
+}
+
+.apply-box p {
+    color: black;
+    font-family: "LTAsusLight";
+    font-size: 2rem;
+    margin: 3rem 4rem;
+}
+
+.font-face-gm .apply-box .apply-btn {
+    padding: .3rem 4rem;
+    background-color: #CE3939;
+    border-color: #CE3939;
+    --bs-btn-active-bg: #CE3939;
+    --bs-btn-active-border-color: #CE3939;
+    border-radius: 60px;
+    font-family: "LTAsusBold"!important;
+    font-size: 2rem;
+}
+
+.faq-box {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    background-color: #CE3939;
+}
+
+.faq-box .title {
+    border-bottom: 3px solid rgba(255, 255, 255, 0.5);
+    padding-bottom: .5rem;
+}
+
+.faq-box h2 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.faq-box p {
+    font-size: 1.5rem;
+    font-family: "LTAsusRegular"
+}
+

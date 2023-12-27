@@ -5,6 +5,27 @@
   font-weight: bold;
 }
 
+@font-face {
+  font-family: "LTAsusHeavy";
+  src: local("LTAsusHeavy"),
+    url("./fonts/LTAsus/LTAsus-Heavy.ttf") format("truetype");
+  font-weight: bolder;
+}
+
+@font-face {
+  font-family: "LTAsusLight";
+  src: local("LTAsusLight"),
+    url("./fonts/LTAsus/LTAsus-Light.ttf") format("truetype");
+  font-weight: bolder;
+}
+
+@font-face {
+  font-family: "LTAsusRegular";
+  src: local("LTAsusRegular"),
+    url("./fonts/LTAsus/LTAsus-Regular.ttf") format("truetype");
+  font-weight: bolder;
+}
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -29,7 +50,7 @@ body {
   margin: 0;
 }
 
-.nav {
+.navbar {
   background-color: #CE3839;
   color: white;
   display: flex;
@@ -39,25 +60,104 @@ body {
   padding: 0 2rem;
 }
 
+.navbar-brand {
+  margin-right: 0!important;
+  margin-left: 2rem;
+}
+
 .site-logo img {
   width: 120px;
 }
 
-.nav ul {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-  display: flex;
-  gap: 2rem;
-  font-size: 27px;
+.navbar-nav {
+  font-family: "LTAsusHeavy";
 }
 
-.nav a {
+@media screen and (min-width: 992px) and (max-width: 1030px) {
+  .nav .nav-link {
+    font-size: 22px!important;
+    position: relative;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1198px) {
+  .nav .nav-link {
+    margin-right: 0!important;
+    position: relative;
+  }
+}
+
+.nav .nav-link {
+  font-size: 24px;
+  margin-right: 1.5rem;
+  position: relative;
+}
+
+.nav-link::after {
+  opacity: 0;
+  transition: all 0.2s;
+  height: 4px;
+  width: 100%;
+  background-color: white;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  content: '';
+}
+
+.nav-link.active {
+  color: white!important;
+}
+
+.nav-link.active::before {
+  color: white!important;
+  opacity: 1;
+  height: 4px;
+  width: 100%;
+  background-color: white;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  content: '';
+}
+
+@media screen and (max-width: 991px) {
+
+  .nav-link.active::before {
+    width: 150px;
+  }
+
+  .nav-link::after {
+    width: 150px;
+  }
+
+  .navbar-nav {
+    margin-left: 3rem;
+  }
+}
+
+.nav-link:hover::after {
+  opacity: 1;
+}
+
+.navbar-collapse .navbar-nav .nav-link {
   color: inherit;
   font-weight: 500;
   text-decoration: inherit;
-  height: 100%;
   display: flex;
   align-items: center;
   padding: .25rem;
+  
+}
+
+#responsive-navbar-nav {
+  color: white!important;
+}
+
+.navbar-toggler {
+  margin-right: 2rem;
+}
+
+.navbar-toggler-icon {
+  color:white;
 }

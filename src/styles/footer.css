@@ -1,26 +1,29 @@
 .footer {
     background-color: black;
-
     width: 100%;
     bottom: 0;
     color: white;
-    font-size: 15px;
+    font-size:1rem;
     color: white;
-    display: flex;
-    align-items: stretch;
-    gap: 3rem;
-    padding: 2rem 2rem;
+
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.col-lg-2 img {
+    margin: auto;
 }
 
 .footer ul {
     padding: 0;
-    margin: 0;
+    text-align: center;
+    margin-top: 1rem;
     margin-bottom: 1rem;
     list-style: none;
     display: flex;
-    gap: 2rem;
-    font-size: 23px;
-
+    justify-content: center;
+    font-family: "LTAsusHeavy"
 }
   
 .footer a {
@@ -28,19 +31,62 @@
     font-weight: 500;
     text-decoration: inherit;
     height: 100%;
-    display: flex;
     align-items: center;
     padding: .25rem;
-}
-
-.right-side p{
-    margin-bottom: 0;
 }
 
 .right-side {
     text-align: center;
 }
 
+.right-side p {
+    margin-top: 1rem;
+    text-align: center;
+    font-family: "LTAsusBold";
+}
+
 .socials a {
     margin: 5px;
+}
+
+#footer-text {
+    text-align: center;
+}
+
+.socials {
+    text-align: center;
+}
+
+.footer-nav {
+    display: grid;
+    align-items: center;
+    font-size: 100%
+}
+
+.footer-nav > ul {
+    justify-content: space-evenly;
+}
+
+@media screen and (max-width: 767px) {
+    .footer-nav ul {
+        display:block
+    }
+}
+
+@media screen and (max-width: 992px) {
+    #footer-logo {
+        width: 40%
+    }
+  }
+
+@media screen and (min-width: 992px) and (max-width: 1400px) {
+    .footer-nav ul {
+        font-size: 120%;
+    }
+  }
+
+@media screen and (min-width: 1401px) {
+    .footer-nav ul {
+        font-size: 150%;
+    }
 }

@@ -23,7 +23,6 @@
     list-style: none;
     display: flex;
     justify-content: center;
-
     font-family: "LTAsusHeavy"
 }
   
@@ -61,7 +60,7 @@
 .footer-nav {
     display: grid;
     align-items: center;
-    font-size: 2vw;
+    font-size: 100%
 }
 
 .footer-nav > ul {

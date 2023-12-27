@@ -32,7 +32,9 @@ export default function Involve() {
                         aute irure dolor in reprehenderit in volupt. Lorem ipsum 
                         dolor sit ane.
                     </p>
-                    <Button size="lg" className="apply-btn mb-5">Volunteer</Button>
+                    <div id="get-involved-btn">
+                        <Button size="lg" className="apply-btn mb-5">Volunteer</Button>       
+                    </div>
                 </div>
                 <div className="container p-2">
                     <h2 className="body-headline font-face-gm p-5">PARTNER WITH THE R.E.D INITIATIVE</h2>
@@ -48,7 +50,9 @@ export default function Involve() {
                         aute irure dolor in reprehenderit in volupt. Lorem ipsum 
                         dolor sit ane.
                     </p>
-                    <Button size="lg" className="apply-btn mb-5">Partner</Button>
+                    <div id="get-involved-btn">
+                        <Button size="lg" className="apply-btn mb-5">Partner</Button>
+                    </div>
                 </div>
                 <div className="container p-2">
 
@@ -65,7 +69,9 @@ export default function Involve() {
                         aute irure dolor in reprehenderit in volupt. Lorem ipsum 
                         dolor sit ane.
                     </p>
+                    <div id="get-involved-btn">
                     <Button size="lg" className="apply-btn mb-5">Donate</Button>
+                    </div>
                 </div>
             </div>
             </div>

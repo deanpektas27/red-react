@@ -4,7 +4,7 @@ import Logo from '../assets/red_logo.png'
 
 export default function NavBar() {
     return (
-        <Navbar collapseOnSelect expand="lg" variant="light" className="nav font-face-gm">
+        <Navbar collapseOnSelect expand="lg" variant="dark" className="nav font-face-gm">
             <Navbar.Brand className='site-logo' >
                 <img src={Logo} alt="RED Logo" />
             </Navbar.Brand>

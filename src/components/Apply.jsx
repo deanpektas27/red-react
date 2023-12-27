@@ -33,21 +33,59 @@ export default function Apply() {
                     <div className="container p-2">
                         <h2 className="body-headline font-face-gm p-5">WHAT TO EXPECT</h2>
                     </div>
-                    <Container>
+                    <div className="container p-2 pb-4">
+                        <div className="row">
+                            <div className="col">
+                                <h2 className="m-auto mb-4 underline">DURING R.E.D INITIATIVE</h2>
+                                <div className="container">
+                                    <h2><span id="triangle-bullet">{`\u2023`}</span> 14 weeks of hybrid mentoring</h2>
+                                    <p id="what-to-expect-content">
+                                        Each week, you will meet with your 
+                                        mentor in-person or virtual group setting. 
+                                        There will be a total of 26 workshops 
+                                        (20 in-person, 6 virtual)
+                                    </p>
+                                    <h3><span id="triangle-bullet">{`\u2023`}</span> Gain professional skills</h3>
+                                    <p id="what-to-expect-content">
+                                        Improve your professionalism, discipline, 
+                                        and leadership to graduate as a R.E.D Leader.
+                                    </p>
+                                </div>
+                            </div>
+                            <div className="col">
+                                <h2 className="m-auto mb-4 underline">AFTER R.E.D INITIATIVE</h2>
+                                <div className="container">
+                                    <h3><span id="triangle-bullet">{`\u2023`}</span> 12 months of follow up</h3>
+                                    <p id="what-to-expect-content">
+                                        Each week, you will meet with your mentor in a 
+                                        virtual group setting to go through a guided 
+                                        curriculum focused on professional and skill 
+                                        development.
+                                    </p>
+                                    <h3><span id="triangle-bullet">{`\u2023`}</span> Gain professional skills</h3>
+                                    <p id="what-to-expect-content">
+                                        Improve your professionalism, discipline, 
+                                        and leadership to graduate as a R.E.D Leader.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    {/* <Container>
                         <Row className="what-to-expect">
                             <Col md={1} />
                             <Col>
                                 <Container>
                                     <h2 className="m-auto mb-4">DURING R.E.D INITIATIVE</h2>
                                     <div className="what-to-expect-left-content">
-                                        <h3>14 weeks of hybrid mentoring</h3>
+                                        <h3>{`\u2023`} 14 weeks of hybrid mentoring</h3>
                                         <p>
                                             Each week, you will meet with your 
                                             mentor in-person or virtual group setting. 
                                             There will be a total of 26 workshops 
                                             (20 in-person, 6 virtual)
                                         </p>
-                                        <h3>Gain professional skills</h3>
+                                        <h3>{`\u2023`} Gain professional skills</h3>
                                         <p>
                                             Improve your professionalism, discipline, 
                                             and leadership to graduate as a R.E.D Leader.
@@ -77,7 +115,7 @@ export default function Apply() {
                             </Col>
                             <Col md={1}/>
                         </Row>
-                    </Container>
+                    </Container> */}
                 </div>
                 <Container className="mb-5 mt-5">
                 <div className="apply-box">

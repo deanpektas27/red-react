@@ -121,7 +121,6 @@ export default function Program() {
                     <div className="right-side container">
                         <Button size="lg" className="body-btn">Contact Us</Button>
                     </div>
-                    <button>Contact Us</button>
                 </Container>
             </div>
         </>

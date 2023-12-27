@@ -45,3 +45,9 @@
     font-family: "LTAsusBold"!important;
     font-size: 2rem;
 }
+
+#get-involved-btn {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}

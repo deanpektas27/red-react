@@ -44,10 +44,10 @@ export default function Footer() {
                     </div>
                     <div className="row">
                         <div className="socials">
-                            <SocialIcon bgColor="white" fgColor="black" url="https://www.facebook.com/" />
-                            <SocialIcon bgColor="white" fgColor="black" url="https://www.linkedin.com/" />
-                            <SocialIcon bgColor="white" fgColor="black" url="https://www.twitter.com/theredinitiative/" />
-                            <SocialIcon bgColor="white" fgColor="black" url="https://www.instagram.com/theredinitiative/" />
+                            <SocialIcon bgColor="white" fgColor="black" target="_blank" url="https://www.facebook.com/" />
+                            <SocialIcon bgColor="white" fgColor="black" target="_blank" url="https://www.linkedin.com/company/theredinitiative/" />
+                            <SocialIcon bgColor="white" fgColor="black" target="_blank" url="https://www.twitter.com/theredinitiative/" />
+                            <SocialIcon bgColor="white" fgColor="black" target="_blank" url="https://www.instagram.com/theredinitiative/" />
                         </div>
                         <p id="footer-text">
                             © 2023 The Red Initiative. All rights reserved.

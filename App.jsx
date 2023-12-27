@@ -22,9 +22,11 @@ function App() {
           <Route path="/program" element={<Program />} />
           <Route path="/apply" element={<Apply />} />
           <Route path="/get-involved" element={<Involve />} />
-          <Route path="/donate" element={<Donate />} />
+          {/* <Route path="/donate" element={<Donate />} /> */}
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
+          
+          <Route path="*" element={<Home />} />
         </Routes>
       <Footer />
     </>

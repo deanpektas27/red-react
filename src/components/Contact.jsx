@@ -1,14 +1,32 @@
+import React, { useEffect } from 'react'
 import {Row, Col, Button} from "react-bootstrap"
-import ReactDOM from 'react-dom';
+import ReactDOM from 'react-dom'
 import './../styles/contact.css'
 import { useForm } from "react-hook-form"
-import validator from "validator";
+import validator from "validator"
 
 export default function Contact() {
     const { register, handleSubmit, formState: {errors} } = useForm();
-    const onSubmit = (data) => {
+
+    const checkSpecialChar = (e) => {
+        if(!/[0-9a-zA-Z]/.test(e.key)){
+         e.preventDefault();
+        }
+    };
+
+    const onSubmit = (formData) => {
         event.preventDefault()
-        console.log(data)
+        console.log("MY DATA", formData)
+
+        fetch('http://localhost:8081/api/contact', {
+            method: 'POST',
+            headers: {
+                'content-type': "application/json"
+            },
+            body: JSON.stringify(formData)
+        })
+        .then(res => res.json())
+        .then(data => console.log(data))
 
         ReactDOM.render(
             <>
@@ -17,7 +35,6 @@ export default function Contact() {
             document.getElementById('contact-form'))
     }
 
-    console.log(errors)
 
     return (
         <>
@@ -43,7 +60,7 @@ export default function Contact() {
                                 <label>
                                     First Name<span id="required-symbol">*</span>
                                     <br />
-                                    <input {...register("firstName", { required: true })} aria-invalid={errors.firstName ? "true" : "false"} />
+                                    <input {...register("firstname", { required: true })} aria-invalid={errors.firstName ? "true" : "false"} />
                                 </label>
                                 {errors.firstName?.type === "required" && (
                                     <p role="alert">First name is required</p>
@@ -53,7 +70,7 @@ export default function Contact() {
                                 <label>
                                     Last Name<span id="required-symbol">*</span>
                                     <br />
-                                    <input {...register("lastName", { required: true })} aria-invalid={errors.lastName ? "true" : "false"} type="text" />
+                                    <input {...register("lastname", { required: true })} aria-invalid={errors.lastName ? "true" : "false"} type="text" />
                                 </label>
                                 {errors.lastName?.type === "required" && (
                                     <p role="alert">Last name is required</p>
@@ -86,7 +103,7 @@ export default function Contact() {
                                 <label>
                                     Phone Number
                                     <br />
-                                    <input {...register("phone")} pattern="[0-9]*" />
+                                    <input {...register("phone")} onKeyDown={(e) => checkSpecialChar(e)} />
                                 </label>
                                 
                             </div>
@@ -97,7 +114,7 @@ export default function Contact() {
                                     Leave your message.
                                     <br />
                                 </label>
-                                <textarea type="text" />
+                                <textarea {...register("message")} type="text" />
                             </div>
                         </div>
 

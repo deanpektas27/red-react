@@ -18,7 +18,7 @@ export default function Contact() {
         event.preventDefault()
         console.log("MY DATA", formData)
 
-        fetch('http://localhost:8081/api/contact', {
+        fetch('/api/contact', {
             method: 'POST',
             headers: {
                 'content-type': "application/json"

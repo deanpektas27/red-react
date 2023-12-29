@@ -2,6 +2,7 @@ const express = require('express')
 const mysql = require('mysql')
 const cors = require('cors')
 const bodyParser = require("body-parser")
+const nodemailer = require("nodemailer")
 require('dotenv').config()
 
 const app = express()
@@ -38,6 +39,10 @@ app.get('/api/contact', (req, res) => {
     })
 })
 
+app.get('*', (req, res) => {
+    res.redirect('/');
+})
+
 app.post('/api/contact', (req, res) => {
     let firstname = req.body.firstname
     let lastname = req.body.lastname
@@ -61,9 +66,39 @@ app.post('/api/contact', (req, res) => {
             res.send('record successfully inserted!')
         }
     })
+
+    const transporter = nodemailer.createTransport({
+        service: "gmail",
+        host: "smtp.gmail.com",
+        port: 465,
+        secure: true,
+        auth: {
+            user: "dpdigi98@gmail.com",
+            pass: "qyai smvt rkbu wqaj",
+        }
+    })
+
+    notifyAdmin(transporter, firstname, lastname, mail, phone, message)
+
+
 })
 
+async function notifyAdmin(t, firstname, lastname, mail, phone, message) {
+    let info = await t.sendMail({
+        from: 'dpdigi98@gmail.com',
+        to: 'nick@diverseinfluencers.org',
+        subject: `${firstname} ${lastname.slice(0,1)} is inquiring about RED!`,
+        html: `<p>${firstname} ${lastname} has reached out via the RED contact form.
+            <br>Phone number: ${phone}
+            <br>Email: ${mail}
+            <br>Message: ${message}
+        </p>`,
+    })
 
+    console.log("message sent: ", info.messageId);
+}
+
+// ERASE PARAMETERS WHEN SENDING TO PROD
 app.listen(8081, () => {
     console.log('listening on port 8081');
 })

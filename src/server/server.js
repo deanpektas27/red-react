@@ -49,14 +49,15 @@ app.post('/api/contact', (req, res) => {
     let mail = req.body.mail
     let phone = req.body.phone
     let message = req.body.message
-    let isFutureMailChecked = req.body.emailcheckbox
+    let isFutureMailChecked = (req.body.emailcheckbox ? 1 : 0)
+
+    console.log(isFutureMailChecked)
 
 
-    var sql = `INSERT INTO users (firstname, lastname, mail, phone, message, checkbox
-            )
+    var sql = `INSERT INTO users (firstname, lastname, mail, phone, message, checkbox)
             VALUES
             (
-                ?, ?, ?, ?, ?
+                ?, ?, ?, ?, ?, ?
             )`;
     db.query(sql, [firstname, lastname, mail, phone, message, isFutureMailChecked], function(err, data) {
         if(err) {
@@ -80,7 +81,7 @@ app.post('/api/contact', (req, res) => {
         }
     })
 
-    notifyAdmin(transporter, firstname, lastname, mail, phone, message, isFutureMailChecked)
+    // notifyAdmin(transporter, firstname, lastname, mail, phone, message, isFutureMailChecked)
 
 
 })

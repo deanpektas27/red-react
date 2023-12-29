@@ -6,12 +6,12 @@ import { useForm } from "react-hook-form"
 import validator from "validator"
 
 export default function Contact() {
-    const { register, handleSubmit, formState: {errors} } = useForm();
+    const { register, handleSubmit, formState: {errors} } = useForm({ defaultValues: { emailcheckbox: true } } );
     const [ backendData, setBackendData ] = useState([{}])
     const [ isChecked, setIsChecked ] = useState(true)
 
     const checkHandler = () => {
-        setIsChecked(!isChecked)
+        setIsChecked(isChecked => !isChecked)
     }
 
     useEffect(() => {
@@ -105,7 +105,7 @@ export default function Contact() {
                                 <input {...register("mail", { required: true })} aria-invalid={errors.mail ? "true" : "false"} id="email-box" />
                                 <br />
                                 <label htmlFor="" name="contact_in_future" >
-                                    <input {...register("emailcheckbox")} type="checkbox" id="email-checkbox" checked={isChecked} onChange={checkHandler} />
+                                    <input {...register("emailcheckbox")} type="checkbox" id="email-checkbox" />
                                         {' '}It's okay to contact me in the future.
                                 </label>
                                 </label>

@@ -96,7 +96,7 @@ async function notifyAdmin(t, firstname, lastname, mail, phone, message, isFutur
             <br>Email: ${mail}
             <br>Message: ${message}
             <br></p>
-            <br><br>
+            <br>
             ${isFutureMailChecked ? '<p>I am interested in being contacted in the future.</p>' : '<p>I am NOT interested in being contacted in the future.</p>'}`,
     })
 

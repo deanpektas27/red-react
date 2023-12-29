@@ -49,18 +49,20 @@ app.post('/api/contact', (req, res) => {
     let mail = req.body.mail
     let phone = req.body.phone
     let message = req.body.message
+    let isFutureMailChecked = req.body.emailcheckbox
 
 
-    var sql = `INSERT INTO users (firstname, lastname, mail, phone, message
+    var sql = `INSERT INTO users (firstname, lastname, mail, phone, message, checkbox
             )
             VALUES
             (
                 ?, ?, ?, ?, ?
             )`;
-    db.query(sql, [firstname, lastname, mail, phone, message], function(err, data) {
+    db.query(sql, [firstname, lastname, mail, phone, message, isFutureMailChecked], function(err, data) {
         if(err) {
             console.log('unable to complete post request')
             res.send(err.message)
+            console.log(err.message)
         }
         else {
             res.send('record successfully inserted!')
@@ -78,21 +80,23 @@ app.post('/api/contact', (req, res) => {
         }
     })
 
-    notifyAdmin(transporter, firstname, lastname, mail, phone, message)
+    notifyAdmin(transporter, firstname, lastname, mail, phone, message, isFutureMailChecked)
 
 
 })
 
-async function notifyAdmin(t, firstname, lastname, mail, phone, message) {
+async function notifyAdmin(t, firstname, lastname, mail, phone, message, isFutureMailChecked) {
     let info = await t.sendMail({
         from: 'dpdigi98@gmail.com',
-        to: 'nick@diverseinfluencers.org',
+        to: 'deanpektas12345@gmail.com',
         subject: `${firstname} ${lastname.slice(0,1)} is inquiring about RED!`,
         html: `<p>${firstname} ${lastname} has reached out via the RED contact form.
             <br>Phone number: ${phone}
             <br>Email: ${mail}
             <br>Message: ${message}
-        </p>`,
+            <br></p>
+            <br><br>
+            ${isFutureMailChecked ? '<p>I am interested in being contacted in the future.</p>' : '<p>I am NOT interested in being contacted in the future.</p>'}`,
     })
 
     console.log("message sent: ", info.messageId);

@@ -8,6 +8,11 @@ import validator from "validator"
 export default function Contact() {
     const { register, handleSubmit, formState: {errors} } = useForm();
     const [ backendData, setBackendData ] = useState([{}])
+    const [ isChecked, setIsChecked ] = useState(true)
+
+    const checkHandler = () => {
+        setIsChecked(!isChecked)
+    }
 
     useEffect(() => {
         fetch("/api").then(
@@ -100,7 +105,7 @@ export default function Contact() {
                                 <input {...register("mail", { required: true })} aria-invalid={errors.mail ? "true" : "false"} id="email-box" />
                                 <br />
                                 <label htmlFor="" name="contact_in_future" >
-                                    <input {...register("email-checkbox")} type="checkbox" name="" id="email-checkbox" />
+                                    <input {...register("emailcheckbox")} type="checkbox" id="email-checkbox" checked={isChecked} onChange={checkHandler} />
                                         {' '}It's okay to contact me in the future.
                                 </label>
                                 </label>

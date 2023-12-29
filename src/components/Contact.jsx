@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 import {Row, Col, Button} from "react-bootstrap"
 import ReactDOM from 'react-dom'
 import './../styles/contact.css'
@@ -7,12 +7,25 @@ import validator from "validator"
 
 export default function Contact() {
     const { register, handleSubmit, formState: {errors} } = useForm();
+    const [ backendData, setBackendData ] = useState([{}])
+
+    useEffect(() => {
+        fetch("/api").then(
+            response => response.json()
+        ).then(
+            data => {
+                setBackendData(data)
+            }
+        )
+    },[])
 
     const checkSpecialChar = (e) => {
         if(!/[0-9a-zA-Z]/.test(e.key)){
          e.preventDefault();
         }
     };
+
+
 
     const onSubmit = (formData) => {
         event.preventDefault()

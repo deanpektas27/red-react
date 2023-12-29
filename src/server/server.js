@@ -2,13 +2,15 @@ const express = require('express')
 const mysql = require('mysql')
 const cors = require('cors')
 const bodyParser = require("body-parser")
-const { connect } = require('puppeteer')
 require('dotenv').config()
 
 const app = express()
+app.use(express.static("dist"))
 app.use(cors())
 app.use(bodyParser.urlencoded({ extended: false }))
 app.use(bodyParser.json());
+
+console.log('backend activated')
 
 const db = mysql.createConnection({
     host: process.env.DB_HOST,
@@ -44,7 +46,7 @@ app.post('/api/contact', (req, res) => {
     let message = req.body.message
 
 
-    var sql = `INSERT INTO users (firstname, lastname, mail, phonenumber, message
+    var sql = `INSERT INTO users (firstname, lastname, mail, phone, message
             )
             VALUES
             (
@@ -63,5 +65,5 @@ app.post('/api/contact', (req, res) => {
 
 
 app.listen(8081, () => {
-    console.log('listening');
+    console.log('listening on port 8081');
 })

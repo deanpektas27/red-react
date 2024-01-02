@@ -1,6 +1,7 @@
 .font-face-gm {
   font-family: "LTAsusBold";
   color: white;
+  font-size:2.5rem;
 }
 
 .body-content .container .body-btn {
@@ -20,9 +21,8 @@
 
 .main-headline div p {
   font-size: 30px;
-  margin-left: 2rem;
-  margin-right: 2rem;
-
+  /* margin-left: 2rem;
+  margin-right: 2rem; */
 }
 
 .underlined-title {

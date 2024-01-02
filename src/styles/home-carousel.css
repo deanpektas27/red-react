@@ -23,6 +23,10 @@
 
 }
 
+.carousel .carousel-inner .carousel-caption {
+    margin-bottom: 80px;
+}
+
 .carousel .carousel-inner .carousel-caption h3 {
     font-family: "LTAsusHeavy";
     font-weight: bolder;
@@ -61,7 +65,7 @@
         font-size: 20px;
     }
     .carousel .carousel-inner .carousel-caption h3 {
-        font-size: 40px;
+        font-size: 32px;
     }
 }
 

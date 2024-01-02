@@ -1,8 +1,14 @@
+import { Link } from 'react-router-dom';
 import ContactFooter from "./ContactFooter"
 import Button from "react-bootstrap/Button"
 import './../styles/involve.css'
 
 export default function Involve() {
+
+    const handleScrollToTop = () => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
     return (
         <>
             <div className="font-face-gm">
@@ -38,19 +44,11 @@ export default function Involve() {
                         exceptional candidates for internship/job opportunities.
                     </p>
                     <div id="get-involved-btn">
-                        <Button size="lg" className="apply-btn mb-5">Partner</Button>
+                        <Link to='/contact'>
+                            <Button size="lg" className="apply-btn mb-5" onClick={handleScrollToTop}>Partner</Button>
+                        </Link>
                     </div>
                 </div>
-                {/* <div className="container p-2">
-                    <h2 className="body-headline font-face-gm p-5">DONATE</h2>
-                    <div className="involve-images involve-image3 mb-4"></div>
-                    <p className="pt-5 pb-5">
-                        Companies looking for diverse talent to hire will benefit greatly from partnering with us. RED Leaders make for exceptional candidates for internship/job opportunities.
-                    </p>
-                    <div id="get-involved-btn">
-                    <Button size="lg" className="apply-btn mb-5">Contact Us</Button>
-                    </div>
-                </div> */}
             </div>
             </div>
             <ContactFooter />

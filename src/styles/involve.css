@@ -1,5 +1,6 @@
 .involve-bg-image {
     background-image: url('./../assets/04_Get_Involved/pexels-christina-morillo-1181405.jpg');
+    background-position-x: 50%;
 }
 
 .involve-image1 {
@@ -35,7 +36,7 @@
     font-size: 2rem;
 }
 
-.body-content .apply-btn {
+#get-involved-btn .apply-btn {
     padding: .3rem 4rem;
     background-color: #CE3939;
     border-color: #CE3939;

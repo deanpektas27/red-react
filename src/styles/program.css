@@ -1,5 +1,6 @@
 .bg-image {
     background-image: url('./../assets/02_Our_Program/pexels-edmond-dantès-8553867.jpg');
+    background-position-x: 30%;
 }
 
 .program-banner {

@@ -14,105 +14,66 @@ export default function Program() {
             <div className="font-face-gm">
                 <div className="main-headline">
                     <div className="container">
-                        <h2 className="font-face-gm">THE R.E.D INITIATIVE</h2>
+                        <h2 className="font-face-gm">THE RED INITIATIVE</h2>
                         <p>
-                            The program cultivates disicipline, 
-                            resilience, and excellence, preparing 
-                            students for success in the financial 
-                            services industry. Join the R.E.D Initiative 
-                            on a transformative journey to unlock your
-                            potential and embrace a future of opportunities.
+                            The Leadership and Career Accelerator Program inspires 
+                            candidates to aim for and achieve higher ambitions, 
+                            empowering them to thrive in their personal and 
+                            professional lives.
                         </p>
                     </div>
                 </div>
-                <div className="body-content program-content">
+                <div className="body-content program-content pb-5">
                     <div className="container p-2">
                         <h2 className="body-headline font-face-gm p-5">HOW THE PROGRAM WORKS</h2>
                     </div>
-                    <Container className='body-content-item pb-5'>
+                    <Container className='body-content-item pb-3'>
                         <div className="row">
-                            <div className="col">
+                            <div className="col-lg-6 pb-3">
                                 <div className="body-text">
-                                <h1>1. APPLY</h1>
+                                <h1>1. CRAWL PHASE</h1>
                                     <p className="pt-3">
-                                        Lorem ipsum dolor sit amet, consectetur 
-                                        adipiscing elit, sed do eiusmod tempor 
-                                        enim incididunt ut labore et dolore magna 
-                                        aliqua. Ut enim ad minim veniam, dunt sheitu 
-                                        duis aute irure dolor in.
+                                    Candidates will participate in workshops covering the 
+                                    fundamentals of professional development: communication, 
+                                    team building, leadership, and public speaking.
                                     </p>
                                 </div>
                             </div>
-                            <div className="col">
-                                <div className="body-image">
-                                    <img className="d-block img-fluid" src={BodyImage1} alt="" />
+                            <div className="col-lg-6 pb-3">
+                                <div className="body-text">
+                                    <h1>2. WALK PHASE</h1>
+                                    <p className="pt-3">
+                                        Candidates will be introduced to guest speakers and 
+                                        workshops covering the recruiting process, resume writing, 
+                                        interviewing, and networking.
+                                    </p>
                                 </div>
                             </div>
                         </div>
                     </Container>   
-                    <Container className='body-content-item pb-5 pt-5'>
+                    <Container className='body-content-item mb-5'>
                         <div className="row">
-                            <div className="col">
-                                <div className="body-image">
-                                    <img className="d-block img-fluid" src={BodyImage2} alt="" />
+                            <div className="col-lg-6">
+                                <div className="body-text">
+                                    <h1>3. RUN PHASE</h1>
+                                    <p className="pt-3">
+                                        Candidates will learn technical-based skills such as Excel and 
+                                        PowerPoint and gain insights into different career paths in 
+                                        financial services.
+                                    </p>
                                 </div>
                             </div>
-                            <div className="col">
+                            <div className="col-lg-6">
                                 <div className="body-text">
-                                    <h1>2. PREPARE</h1>
-                                    <p>
-                                        Lorem ipsum dolor sit amet, consectetur 
-                                        adipiscing elit, sed do eiusmod tempor 
-                                        enim incididunt ut labore et dolore magna 
-                                        aliqua. Ut enim ad minim veniam, dunt sheitu 
-                                        duis aute irure dolor in.
+                                    <h1>4. GRADUATION</h1>
+                                    <p className="pt-3">
+                                    Upon passing the three phases, Candidates will graduate to become 
+                                    RED Leaders and receive their stipend and a mentor.
                                     </p>
                                 </div>
                             </div>
                         </div>
-                    </Container>
-                    <Container className='body-content-item pb-5 pt-5'>   
-                        <div className="row">
-                            <div className="col">
-                                <div className="body-text">
-                                    <h1>3. LEARN</h1>
-                                    <p>
-                                        Lorem ipsum dolor sit amet, consectetur 
-                                        adipiscing elit, sed do eiusmod tempor 
-                                        enim incididunt ut labore et dolore magna 
-                                        aliqua. Ut enim ad minim veniam, dunt sheitu 
-                                        duis aute irure dolor in.
-                                    </p>
-                                </div>
-                            </div>
-                            <div className="col">
-                                <div className="body-image">
-                                    <img className="d-block img-fluid" src={BodyImage3} alt="" />
-                                </div>
-                            </div>
-                        </div>
-                    </Container>
-                    <Container className='body-content-item pb-5 pt-5'>
-                        <div className="row">
-                            <div className="col">
-                                <div className="body-image">
-                                    <img className="d-block img-fluid" src={BodyImage4} alt="" />
-                                </div>
-                            </div>
-                            <div className="col">
-                                <div className="body-text">
-                                    <h1>4. EXPLORE</h1>
-                                    <p>
-                                        Lorem ipsum dolor sit amet, consectetur 
-                                        adipiscing elit, sed do eiusmod tempor 
-                                        enim incididunt ut labore et dolore magna 
-                                        aliqua. Ut enim ad minim veniam, dunt sheitu 
-                                        duis aute irure dolor in.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </Container>    
+                    </Container>   
                 </div>
                 <Container className="mb-5 mt-5">
                     <div className="alternate-contact-footer">

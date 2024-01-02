@@ -16,31 +16,25 @@ export default function Home() {
             <HomeCarousel />
             <div className="main-headline">
                 <div className="container">
-                    <h2 className="font-face-gm">WHERE GRIT MEETS OPPORTUNITY</h2>
+                    <h2 className="font-face-gm">Become a RED Leader</h2>
                     <p>
-                        The R.E.D Initiative is an empowering program 
-                        designed for underrepresented college students 
-                        who aspire to pursue careers in finance. 
-                        It offers practical training, real-world 
-                        experiences, and unwavering support.
+                        The RED Initiative inspires Black and Latino college 
+                        students to aim for and achieve higher ambitions, 
+                        empowering them to thrive personally and professionally.
                     </p>
                 </div>
             </div>
             <div className="body-content">
                 <div className="container p-2">
-                    <h2 className="body-headline font-face-gm p-5">JOIN OUR EMPOWERING COMMUNITY</h2>
+                    <h2 className="body-headline font-face-gm p-5">JOIN THE RED COMMUNITY</h2>
                 </div>
                 <Container className="body-content-item pb-5">
                     <div className="row">
                         <div className="col">
                             <div className="body-text">
-                                <h2 className="underlined-title">BECOME A MENTEE</h2>
+                                <h1 className="underlined-title">BECOME A RED LEADER</h1>
                                 <p className="pt-3">
-                                    Lorem ipsum dolor sit amet, consectetur 
-                                    adipiscing elit, sed do eiusmod tempor 
-                                    dolore incididunt ut labore et dolore 
-                                    magna aliqua. Ut enim ad minim veniam, 
-                                    duis aute irure dolor in.
+                                    Challenge yourself by applying for our transformative program.
                                 </p>
                                 <Button size="lg" className="body-btn">Learn More</Button>
                             </div>
@@ -61,13 +55,10 @@ export default function Home() {
                         </div>
                         <div className="col">
                             <div className="body-text">
-                                <h2 className="underlined-title">BECOME A MENTOR</h2>
+                                <h1 className="underlined-title">BECOME A MENTOR</h1>
                                 <p className="pt-3">
-                                    Lorem ipsum dolor sit amet, consectetur 
-                                    adipiscing elit, sed do eiusmod tempor 
-                                    dolore incididunt ut labore et dolore 
-                                    magna aliqua. Ut enim ad minim veniam, 
-                                    duis aute irure dolor in.
+                                    Empower the next generation by sharing your wisdom and experiences 
+                                    as a mentor to a RED Leader.
                                 </p>
                                 <Button size="lg" className="body-btn">Learn More</Button>
                             </div>
@@ -78,13 +69,9 @@ export default function Home() {
                     <div className="row">
                         <div className="col">
                             <div className="body-text">
-                                <h2 className="underlined-title">BECOME A PARTNER</h2>
+                                <h1 className="underlined-title">BECOME A PARTNER</h1>
                                 <p className="pt-3">
-                                    Lorem ipsum dolor sit amet, consectetur 
-                                    adipiscing elit, sed do eiusmod tempor 
-                                    dolore incididunt ut labore et dolore 
-                                    magna aliqua. Ut enim ad minim veniam, 
-                                    duis aute irure dolor in.
+                                    Learn how you can tap into our diverse pool of talent.
                                 </p>
                                 <Button size="lg" className="body-btn">Find Talent</Button>
                             </div>
@@ -105,15 +92,13 @@ export default function Home() {
                         </div>
                         <div className="col">
                             <div className="body-text">
-                                <h2 className="underlined-title">MAKE A CHANGE</h2>
+                                <h1 className="underlined-title">MAKE A CHANGE</h1>
                                 <p className="pt-3">
-                                    Lorem ipsum dolor sit amet, consectetur 
-                                    adipiscing elit, sed do eiusmod tempor 
-                                    dolore incididunt ut labore et dolore 
-                                    magna aliqua. Ut enim ad minim veniam, 
-                                    duis aute irure dolor in.
+                                Donate to help us impact the lives of more college students.
+                                <br />
+                                (Coming Soon)
                                 </p>
-                                <Button size="lg" className="body-btn">Donate</Button>
+                                {/* <Button size="lg" className="body-btn">Donate</Button> */}
                             </div>
                         </div>
                     </div>

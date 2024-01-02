@@ -29,16 +29,9 @@
 
 }
 
-.body-text {
-    /* margin-left: 1rem;
-    margin-right: 1rem; */
-
-}
-
 .body-text .pt-3 {
     font-family: "LTAsusLight";
     font-size: 1.8rem;
-    letter-spacing: 0px;
-    line-height: 2.5rem;
+    line-height: 2.0rem;
     text-align:left;
 }

@@ -67,3 +67,8 @@ form textarea {
 #required-symbol {
     color: red
 }
+
+.charLeft {
+    font-family: 'LTAsusLight';
+    font-size: 20px;
+}

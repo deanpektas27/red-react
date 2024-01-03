@@ -7,12 +7,9 @@ import validator from "validator"
 
 export default function Contact() {
     const { register, handleSubmit, formState: {errors} } = useForm({ defaultValues: { emailcheckbox: true } } );
-    const [ backendData, setBackendData ] = useState([{}])
-    const [ isChecked, setIsChecked ] = useState(true)
+    const [ backendData, setBackendData ] = useState([{}]);
+    const [inputText, setInputText] = useState("");
 
-    const checkHandler = () => {
-        setIsChecked(isChecked => !isChecked)
-    }
 
     useEffect(() => {
         fetch("/api").then(
@@ -30,7 +27,9 @@ export default function Contact() {
         }
     };
 
-
+    const handleChange = (e) => {
+        setInputText(e.target.value);
+    }
 
     const onSubmit = (formData) => {
         event.preventDefault()
@@ -132,7 +131,8 @@ export default function Contact() {
                                     Leave your message.
                                     <br />
                                 </label>
-                                <textarea {...register("message")} type="text" />
+                                <textarea {...register("message")} type="text" onChange={handleChange} maxLength="1000" />
+                                <span className="charLeft">{1000 - inputText.length}/1000 Characters Left</span>
                             </div>
                         </div>
 

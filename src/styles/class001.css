@@ -1,0 +1,35 @@
+.title {
+    font-family: 'LTAsusHeavy';
+    font-size: 200%;
+}
+
+.class-title {
+    padding-left:0!important;
+    padding-right:0!important;
+    padding-bottom:0!important;
+}
+
+.student-headshot {
+    padding:0!important
+}
+
+.headshot {
+
+    border-color: black;
+    vertical-align: baseline;
+    max-width: 250px;
+    border-color:rgb(175, 174, 174);
+    border-width: 3px;
+    border-style: solid;
+    /* margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px; */
+}
+
+.col-centered {
+    margin: 0 auto;
+}
+
+.student {
+    padding:0!important;
+}

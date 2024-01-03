@@ -1,6 +1,7 @@
 import Carousel from 'react-bootstrap/Carousel';
 import Button from 'react-bootstrap/Button';
 import Row from 'react-bootstrap/Row';
+import { Link } from 'react-router-dom';
 import './../styles/home-carousel.css'
 
 export default function HomeCarousel() {
@@ -9,13 +10,15 @@ export default function HomeCarousel() {
             <Carousel.Item className="carousel-image bg-img-1">
                 <Carousel.Caption>
                     <h3>CONGRATULATIONS TO CLASS 001!</h3>
-                    <Button size="lg">Read their Stories</Button>
+                    <Link to='/class001'>
+                        <Button size="lg">Read their Stories</Button>
+                    </Link>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item className="carousel-image bg-img-2">
                 <Carousel.Caption>
                     <h3>BRING YOUR KNOWLEDGE</h3>
-                    <Button size="lg">Volunteer</Button>
+                    <Button size="lg" target='_blank' href="https://docs.google.com/forms/d/e/1FAIpQLSdjLuI0Pg36Z5qF7Ph4WwneAaaCDizPREO9CPMZPEpnArulFg/viewform">Volunteer</Button>
                 </Carousel.Caption>
             </Carousel.Item>
             {/* <Carousel.Item className="carousel-image bg-img-3">

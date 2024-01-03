@@ -49,6 +49,9 @@ form textarea {
     height: 200px;
     font-family:'LTAsusRegular';
     font-size:x-large;
+    border-color:grey!important;
+    border-width:1px;
+    line-height: normal;
 }
 
 #form-headline {

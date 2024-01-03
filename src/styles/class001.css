@@ -26,10 +26,28 @@
     margin-top: 20px; */
 }
 
-.col-centered {
-    margin: 0 auto;
+#row1, #row2, #row3 {
+    padding: 1px!important;
+    padding-top: 2rem!important;
+    margin-left:12rem!important;
+    margin-right:12rem!important;
 }
 
-.student {
-    padding:0!important;
+#row2, #row3 {
+    padding-top:2rem!important;
+}
+
+
+#row1 #student, #row2 #student, #row3 #student {
+    padding: 3px!important;
+}
+
+@media screen and (max-width: 771px) {
+    #row1, #row2, #row3 {
+        margin-left: 6rem!important;
+        margin-right: 6rem!important;
+    }
+    .headshot {
+        max-width: 200px;
+    }
 }

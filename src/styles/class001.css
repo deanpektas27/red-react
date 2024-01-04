@@ -26,6 +26,15 @@
     margin-top: 20px; */
 }
 
+#row1 #student h4, #row2 #student h4, #row3 #student h4 {
+    font-family: 'LTAsusBold';
+    margin-bottom: 0!important;
+}
+
+#row1 #student p, #row2 #student p, #row3 #student p {
+    font-size: 100%;
+}
+
 #row1, #row2, #row3 {
     padding: 1px!important;
     padding-top: 2rem!important;
@@ -42,10 +51,31 @@
     padding: 3px!important;
 }
 
+#student-container {
+    max-width: 1600px;
+}
+
+#modal-student-school {
+    font-family:'LTAsusRegular';
+
+}
+
+.modal-header {
+    border-bottom:none!important;
+    --bs-btn-close-bg: white!important
+}
+
+.modal-content {
+    background-color: #182F84!important;
+    color: white!important;
+    font-size:120%;
+}
+
+
 @media screen and (max-width: 771px) {
     #row1, #row2, #row3 {
-        margin-left: 6rem!important;
-        margin-right: 6rem!important;
+        margin-left: 1rem!important;
+        margin-right: 1rem!important;
     }
     .headshot {
         max-width: 200px;

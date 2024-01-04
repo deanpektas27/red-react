@@ -1,13 +1,19 @@
 import Button from "react-bootstrap/Button"
 import Container from "react-bootstrap/Container"
-import BodyImage1 from './../assets/02_Our_Program/pexels-pavel-danilyuk-6925375.jpg';
-import BodyImage2 from './../assets/02_Our_Program/pexels-tima-miroshnichenko-5439381.jpg';
-import BodyImage3 from './../assets/02_Our_Program/pexels-alexander-suhorucov-6457587.jpg';
-import BodyImage4 from './../assets/02_Our_Program/taylor-grote-UiVe5QvOhao-unsplash.jpg';
+import { Link } from 'react-router-dom';
+// import BodyImage1 from './../assets/02_Our_Program/pexels-pavel-danilyuk-6925375.jpg';
+// import BodyImage2 from './../assets/02_Our_Program/pexels-tima-miroshnichenko-5439381.jpg';
+// import BodyImage3 from './../assets/02_Our_Program/pexels-alexander-suhorucov-6457587.jpg';
+// import BodyImage4 from './../assets/02_Our_Program/taylor-grote-UiVe5QvOhao-unsplash.jpg';
 import './../styles/program.css'
 import './../styles/home.css'
 
 export default function Program() {
+
+    const handleScrollToTop = () => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
     return (
         <>
             <div className="program-banner bg-image"></div>
@@ -80,7 +86,9 @@ export default function Program() {
                         <h2 className="mb-4"><span className="highlighted-text">INTERESTED?</span> APPLY NOW TO <br />JOIN OUR EMPOWERING COMMUNITY</h2>
                     </div>
                     <div className="right-side container">
-                        <Button size="lg" className="body-btn">Contact Us</Button>
+                        <Link to='/contact'>
+                            <Button size="lg" onClick={handleScrollToTop} className="body-btn">Contact Us</Button>
+                        </Link>
                     </div>
                 </Container>
             </div>

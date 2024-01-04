@@ -2,9 +2,15 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Button from "react-bootstrap/Button";
+import { Link } from 'react-router-dom';
 import './../styles/contact-footer.css'
 
 export default function ContactFooter() {
+
+    const handleScrollToTop = () => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
     return (
         <Container className="mb-5 mt-5">
             <Row>
@@ -19,7 +25,9 @@ export default function ContactFooter() {
                 </Col>
                 <Col md={5}>
                     <div className="right-side container">
-                        <Button size="lg" className="body-btn">Contact Us</Button>
+                        <Link to='/contact'>
+                            <Button size="lg" onClick={handleScrollToTop} className="body-btn">Contact Us</Button>
+                        </Link>
                     </div>
                 </Col>
                 <Col md={1}></Col>

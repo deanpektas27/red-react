@@ -1,17 +1,17 @@
 .bg-img-1 {
-    background-image: url('./../assets/01_Home_page/Carousel/class1_group.png');
+    background-image: url('./../assets/01_Home_page/Carousel/class1_group-min.png');
     background-position-y: 5%;
     background-position-x: 60%;
 }
 
 .bg-img-2 {
-    background-image: url('./../assets/01_Home_page/Carousel/pexels-christina-morillo-1181605.jpg');
+    background-image: url('./../assets/01_Home_page/Carousel/pexels-christina-morillo-1181605-min.jpg');
     background-position-y: 40%;
     background-position-x: 60%;
 }
 
 .bg-img-3 {
-    background-image: url('./../assets/01_Home_page/Carousel/cytonn-photography-n95VMLxqM2I-unsplash.jpg');
+    background-image: url('./../assets/01_Home_page/Carousel/cytonn-photography-n95VMLxqM2I-unsplash-min.jpg');
     background-position-y: center;
     background-position-x: center;
 }

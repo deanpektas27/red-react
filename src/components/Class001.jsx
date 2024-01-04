@@ -4,17 +4,17 @@ import { useEffect, useState } from 'react';
 import { Button } from 'react-bootstrap';
 import { Modal } from 'react-bootstrap';
 import Data from './../assets/student-data.json'
-import Abdul from './../assets/class001/Abdul.png';
-import Diogo from './../assets/class001/Diogo.png';
-import Edryan from './../assets/class001/Edryan.png';
-import Gabriel from './../assets/class001/Gabriel.png';
-import Jason from './../assets/class001/Jason.png';
-import Jazmin from './../assets/class001/Jazmin.png';
-import Juliana from './../assets/class001/Juliana.png';
-import Katellyn from './../assets/class001/Katellyn.png';
-import Natalia from './../assets/class001/Natalia.png';
-import Nick from './../assets/class001/Nick.png';
-import Yero from './../assets/class001/Yero.png';
+import Abdul from './../assets/class001/Abdul-min.png';
+import Diogo from './../assets/class001/Diogo-min.png';
+import Edryan from './../assets/class001/Edryan-min.png';
+import Gabriel from './../assets/class001/Gabriel-min.png';
+import Jason from './../assets/class001/Jason-min.png';
+import Jazmin from './../assets/class001/Jazmin-min.png';
+import Juliana from './../assets/class001/Juliana-min.png';
+import Katellyn from './../assets/class001/Katellyn-min.png';
+import Natalia from './../assets/class001/Natalia-min.png';
+import Nick from './../assets/class001/Nick-min.png';
+import Yero from './../assets/class001/Yero-min.png';
 
 export default function Class001() {
     const [show, setShow] = useState(false);
@@ -46,7 +46,7 @@ export default function Class001() {
                 </Modal.Header>
                 <Modal.Body>
                     <div className="container">
-                        <img className="headshot" alt="" src={`/src/assets/class001/${student[0]}.png`} />
+                        <img className="headshot" alt="" src={`/src/assets/class001/${student[0]}-min.png`} />
                         <h3>{student[1]}</h3>
                         <h5 id="modal-student-school">{student[2]}</h5>
                         <p id="modal-student-school">{student[3]}</p>

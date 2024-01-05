@@ -50,7 +50,7 @@ export default function Footer() {
                             <SocialIcon bgColor="white" fgColor="black" target="_blank" url="https://www.instagram.com/theredinitiative/" />
                         </div>
                         <p id="footer-text">
-                            © 2023 The RED Initiative. All rights reserved.
+                            © 2024 The RED Initiative. All rights reserved.
                             <br />
                             All other logos are registered trademark of their 
                             respective companies  

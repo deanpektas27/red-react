@@ -21,8 +21,8 @@ export default function Home() {
         <>
             <HomeCarousel />
             <div className="main-headline">
-                <div className="container">
-                    <h2 className="font-face-gm">Become a RED Leader</h2>
+                <div className="container p-3 pb-5">
+                    <h2 className="font-face-gm p-5 mb-0">Become a RED Leader</h2>
                     <p>
                         The RED Initiative inspires Black and Latino college 
                         students to aim for and achieve higher ambitions, 

@@ -66,7 +66,7 @@ export default function Class001() {
                             <img className="headshot" src={Katellyn} alt="" onClick={(e) => {
                                 changeStudent(e)
                             }} data_id="katellyn" />
-                            <h4 className="">Katellyn Ahuati</h4>
+                            <h4 className="">Katellyn Ahuatl</h4>
                             <p>CUNY Baruch College</p>
                         </div>
                         <div className="col" id="student">

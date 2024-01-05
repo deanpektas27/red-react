@@ -24,6 +24,7 @@
 #requirement-list {
     text-align: left;
     padding-top: 2rem!important;
+    font-family: 'LTAsusRegular'
     /* padding-bottom: 0!important; */
 }
 
@@ -41,7 +42,7 @@
 
 #what-to-expect-content {
     font-family: "LTAsusLight";
-    font-size: 1.8rem;
+    font-size: 24px;
     line-height: 2rem;
     text-align: left!important;
     margin-bottom: 2.5rem;

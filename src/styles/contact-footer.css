@@ -1,3 +1,10 @@
+@font-face {
+    font-family: "LTAsusRegular";
+    src: local("LTAsusRegular"),
+      url("./../fonts/LTAsus/LTAsus-Regular.ttf") format("truetype");
+    font-weight: bolder;
+}
+
 .highlighted-text {
     color: #CE3939;
 }
@@ -10,6 +17,10 @@
 .left-side h2, .left-side p {
     color: black;
     text-align: center;
+}
+
+.left-side #contactfooter-p {
+    font-family: "LTAsusRegular";
 }
 
 .container .right-side .body-btn {

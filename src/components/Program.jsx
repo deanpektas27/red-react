@@ -19,8 +19,8 @@ export default function Program() {
             <div className="program-banner bg-image"></div>
             <div className="font-face-gm">
                 <div className="main-headline">
-                    <div className="container">
-                        <h2 className="font-face-gm">THE RED INITIATIVE</h2>
+                    <div className="container p-3 pb-5">
+                        <h2 className="body-headline font-face-gm p-5 mb-0">THE RED INITIATIVE</h2>
                         <p>
                             The Leadership and Career Accelerator Program inspires 
                             candidates to aim for and achieve higher ambitions, 

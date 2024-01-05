@@ -7,8 +7,8 @@ export default function About() {
             <div className="font-face-gm">
                 <div className="about-banner about-bg-image"></div>
                 <div className="main-headline">
-                    <div className="container">
-                        <h2 className="font-face-gm">ABOUT RED INITIATIVE</h2>
+                    <div className="container p-3 pb-5">
+                        <h2 className="body-headline font-face-gm p-5 mb-0">ABOUT RED INITIATIVE</h2>
                         <p>
                             The Resilience, Excellence, and Diversity Initiative is a 
                             501(c)(3) nonprofit organization founded in July 2023. 

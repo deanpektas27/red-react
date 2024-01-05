@@ -10,8 +10,8 @@ export default function Apply() {
             <div className="apply-banner apply-bg-image"></div>
             <div className="font-face-gm">
                 <div className="main-headline">
-                    <div className="container">
-                        <h2 className="font-face-gm">GENERAL REQUIREMENTS</h2>
+                    <div className="container p-3 pb-5">
+                        <h2 className="font-face-gm p-5 mb-0">GENERAL REQUIREMENTS</h2>
                         <p className="pb-4">
                             To become a RED Leader, you will learn to build character, 
                             increase self-awareness, and develop resilience through 
@@ -19,7 +19,7 @@ export default function Apply() {
                             and real-world experiences. But before you begin this 
                             journey, you must meet general requirements.
                         </p>
-                        <h3 className="">To be eligible, you must meet the following requirements:</h3>
+                        <h3>To be eligible, you must meet the following requirements:</h3>
                         <ul id="requirement-list">
                             <li>Identify as Black/African-American or Hispanic/Latino</li>
                             <li>Cumulative GPA of 3.2; freshmen do not have a required minimum GPA</li>
@@ -41,7 +41,7 @@ export default function Apply() {
                                     <p id="what-to-expect-content">
                                         You will meet twice a week for four months in a hybrid setting.
                                     </p>
-                                    <h3><span id="triangle-bullet">{`\u2023`}</span> Professional and Leadership Skills</h3>
+                                    <h2><span id="triangle-bullet">{`\u2023`}</span> Professional and Leadership Skills</h2>
                                     <p id="what-to-expect-content">
                                         Improve your professionalism, discipline, and leadership to graduate as a RED Leader.
                                     </p>
@@ -50,11 +50,11 @@ export default function Apply() {
                             <div className="col">
                                 <h2 className="m-auto mb-4 underline">AFTER LCAP</h2>
                                 <div className="container expect-content-container">
-                                    <h3><span id="triangle-bullet">{`\u2023`}</span> Benefits</h3>
+                                    <h2><span id="triangle-bullet">{`\u2023`}</span> Benefits</h2>
                                     <p id="what-to-expect-content">
                                         You will receive a stipend, a mentor, a graduation plaque, and a recommendation letter.
                                     </p>
-                                    <h3><span id="triangle-bullet">{`\u2023`}</span> Career Support</h3>
+                                    <h2><span id="triangle-bullet">{`\u2023`}</span> Career Support</h2>
                                     <p id="what-to-expect-content">
                                         You gain access to any learning/career opportunities provided by RED.
                                     </p>

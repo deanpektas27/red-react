@@ -21,19 +21,11 @@
     background-position-x:60%;
 }
 
-.requirement-list {
+#requirement-list {
     text-align: left;
     padding-top: 2rem!important;
-    padding-bottom: 0!important;
+    /* padding-bottom: 0!important; */
 }
-
-/* .what-to-expect h2 {
-    font-family: "LTAsusBold";
-    padding-bottom: 5px;
-    border-bottom-style: solid;
-    border-bottom-width: 3.1px;
-    width: fit-content;
-} */
 
 .underline {
     font-family: "LTAsusBold";
@@ -62,25 +54,6 @@
         padding-left:18%!important;
     }
 }
-
-
-/* .what-to-expect .what-to-expect-left-content p, .what-to-expect .what-to-expect-right-content p {
-    font-family: "LTAsusLight";
-    font-size: 1.8rem;
-    line-height: 2rem;
-    text-align: left!important;
-    margin-bottom: 2.5rem
-} */
-
-/* .what-to-expect-left-content {
-    padding-left: 1rem;
-    padding-right: 1rem;
-} */
-
-/* .what-to-expect-right-content {
-    padding-left: 4rem;
-    padding-right: 4rem;
-} */
 
 .apply-box {
     text-align: center;
@@ -123,8 +96,7 @@
 }
 
 .faq-box h2 {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-top: 1.5rem;
 }
 
 .faq-box p {

@@ -38,7 +38,7 @@ export default function Home() {
                     <div className="row">
                         <div className="col">
                             <div className="body-text">
-                                <h1 className="underlined-title">BECOME A RED LEADER</h1>
+                                <h2 className="underlined-title">BECOME A RED LEADER</h2>
                                 <p className="pt-3">
                                     Challenge yourself by applying for our transformative program.
                                 </p>
@@ -64,7 +64,7 @@ export default function Home() {
                         </div>
                         <div className="col">
                             <div className="body-text">
-                                <h1 className="underlined-title">BECOME A MENTOR</h1>
+                                <h2 className="underlined-title">BECOME A MENTOR</h2>
                                 <p className="pt-3">
                                     Empower the next generation by sharing your wisdom and experiences 
                                     as a mentor to a RED Leader.
@@ -80,7 +80,7 @@ export default function Home() {
                     <div className="row">
                         <div className="col">
                             <div className="body-text">
-                                <h1 className="underlined-title">BECOME A PARTNER</h1>
+                                <h2 className="underlined-title">BECOME A PARTNER</h2>
                                 <p className="pt-3">
                                     Learn how you can tap into our diverse pool of talent.
                                 </p>
@@ -106,7 +106,7 @@ export default function Home() {
                         </div>
                         <div className="col">
                             <div className="body-text">
-                                <h1 className="underlined-title">MAKE A CHANGE</h1>
+                                <h2 className="underlined-title">MAKE A CHANGE</h2>
                                 <p className="pt-3">
                                 Donate to help us impact the lives of more college students.
                                 <br />

@@ -12,22 +12,20 @@ export default function Apply() {
                 <div className="main-headline">
                     <div className="container">
                         <h2 className="font-face-gm">GENERAL REQUIREMENTS</h2>
-                        <p>
+                        <p className="pb-4">
                             To become a RED Leader, you will learn to build character, 
                             increase self-awareness, and develop resilience through 
                             direct and honest feedback, robust individualized coaching, 
                             and real-world experiences. But before you begin this 
                             journey, you must meet general requirements.
                         </p>
-                        <div className="requirement-list">
-                            <h3 className="pb-4">To be eligible, you must meet the following requirements:</h3>
-                            <ul>
-                                <li>Identify as Black/African-American or Hispanic/Latino</li>
-                                <li>Cumulative GPA of 3.2; freshmen do not have a required minimum GPA</li>
-                                <li>Majoring in Accounting, Economics, Finance, or another related major</li>
-                                <li>Attending an accredited college in the New York City metro area (NJ/CT included)</li>
-                            </ul>
-                        </div>
+                        <h3 className="">To be eligible, you must meet the following requirements:</h3>
+                        <ul id="requirement-list">
+                            <li>Identify as Black/African-American or Hispanic/Latino</li>
+                            <li>Cumulative GPA of 3.2; freshmen do not have a required minimum GPA</li>
+                            <li>Majoring in Accounting, Economics, Finance, or another related major</li>
+                            <li>Attending an accredited college in the New York City metro area (NJ/CT included)</li>
+                        </ul>
                     </div>
                 </div>
                 <div className="body-content">
@@ -65,51 +63,6 @@ export default function Apply() {
                         </div>
                     </div>
                     </div>
-                    {/* <Container>
-                        <Row className="what-to-expect">
-                            <Col md={1} />
-                            <Col>
-                                <Container>
-                                    <h2 className="m-auto mb-4">DURING R.E.D INITIATIVE</h2>
-                                    <div className="what-to-expect-left-content">
-                                        <h3>{`\u2023`} 14 weeks of hybrid mentoring</h3>
-                                        <p>
-                                            Each week, you will meet with your 
-                                            mentor in-person or virtual group setting. 
-                                            There will be a total of 26 workshops 
-                                            (20 in-person, 6 virtual)
-                                        </p>
-                                        <h3>{`\u2023`} Gain professional skills</h3>
-                                        <p>
-                                            Improve your professionalism, discipline, 
-                                            and leadership to graduate as a R.E.D Leader.
-                                        </p>
-                                    </div>
-                                </Container>
-                            </Col>
-                            <Col>
-                                <Container className="pb-5">
-                                    <h2 className="m-auto mb-4">AFTER R.E.D INITIATIVE</h2>
-                                    <div className="what-to-expect-right-content">
-                                        <h3>12 months of follow up</h3>
-                                        <p>
-                                            Each week, you will meet with your mentor in a 
-                                            virtual group setting to go through a guided 
-                                            curriculum focused on professional and skill 
-                                            development.
-                                        </p>
-                                        <h3>R.E.D Initiative Alumni</h3>
-                                        <p>
-                                            Get graduation perks and continue your 
-                                            professional journey by engaging in monthly 
-                                            meetings with a volunteer mentor.
-                                        </p>
-                                    </div>  
-                                </Container>
-                            </Col>
-                            <Col md={1}/>
-                        </Row>
-                    </Container> */}
                 </div>
                 <Container className="mb-5 mt-5">
                 <div className="apply-box">
@@ -125,7 +78,7 @@ export default function Apply() {
                     <div className="container">
                         <h2 className="title">APPLICANT FAQ</h2>
                         <div>
-                            <h2 className="pt-4">How is this program different from any other program?</h2>
+                            <h2>How is this program different from any other program?</h2>
                             <p>
                                 Our culture will differ from any organization you have heard of. 
                                 Our program will instill discipline, reward on merit, and more importantly, 

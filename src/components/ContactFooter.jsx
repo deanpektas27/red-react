@@ -17,7 +17,7 @@ export default function ContactFooter() {
                 <Col md={1}></Col>
                 <Col md={5}>
                     <div className="left-side">
-                        <h2 className="pt-0 pb-0 mb-0">Connect with The <span className="highlighted-text">R.E.D Initiative</span></h2>
+                        <h2 className="pt-0 pb-0 mb-0">Connect with The <span className="highlighted-text">RED Initiative</span></h2>
                         <p>
                             Reach out for more information
                         </p>

@@ -23,25 +23,25 @@ export default function About() {
                         <h2 className="body-headline font-face-gm p-5">FOUNDER</h2>
                         <div className="about-image nick container"></div>
                         <div className="container mt-5">
-                            <p className="pb-2">
+                            <p id="nick-summary">
                                 Nick is a first-generation college graduate whose journey 
                                 has been marked by resilience and determination. 
                                 Born and raised in The Bronx, Nick navigated the 
                                 challenges of pursuing higher education with no connections 
                                 or knowledge of the financial services industry.
                             </p>
-                            <p className="pb-2">
+                            <p id="nick-summary">
                                 In 2020, Nick graduated from CUNY Lehman College, 
                                 earning a B.S. in Accounting and an M.S. in Human Resources. 
                                 Along the way, Nick became involved in student organizations, 
                                 leadership roles, and community service initiatives.
                             </p>
-                            <p className="pb-2">
+                            <p id="nick-summary">
                                 Since graduating, Nick has worked as a Campus Recruiter 
                                 in the financial services industry. Additionally, 
                                 he serves as a 2nd Lieutenant in the New York Army National Guard.
                             </p>
-                            <p className="pb-5">
+                            <p id="nick-summary">
                                 Nick founded RED, believing that Black and Latino college students 
                                 should be challenged more to be the best versions of themselves.
                             </p>

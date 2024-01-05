@@ -96,7 +96,7 @@ export default function Apply() {
                             <h2>Will I receive a mentor?</h2>
                             <p>
                                 Upon successful completion of the LCAP program, you will 
-                                receive a mentor working in the nancial services industry.
+                                receive a mentor working in the financial services industry.
                             </p>
                         </div>
                         <div>
@@ -109,12 +109,6 @@ export default function Apply() {
                             <h2>If I am not Black or Latino, am I eligible for this program?</h2>
                             <p>
                                 No, you must identify as Black or Latino.
-                            </p>
-                        </div>
-                        <div>
-                            <h2>How many workshops can I miss?</h2>
-                            <p>
-                                If this is a question you're asking, we are not the program for you.
                             </p>
                         </div>
                         <div>

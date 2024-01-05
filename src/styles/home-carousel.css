@@ -34,14 +34,13 @@
 }
 
 .carousel .carousel-inner .btn-lg, .row .body-text .body-btn {
-    padding: .3rem 3rem;
+    padding: .3rem 2.5rem;
     background-color: #CE3939;
     border-color: #CE3939;
     --bs-btn-active-bg: #CE3939;
     --bs-btn-active-border-color: #CE3939;
     border-radius: 60px;
     font-family: "LTAsusBold"!important;
-    font-size:30px;
 }
 
 .carousel .carousel-indicators button {
@@ -70,9 +69,9 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 1400px) {
-    .carousel .carousel-inner .btn-lg, .row .body-text .body-btn {
+    /* .carousel .carousel-inner .btn-lg, .row .body-text .body-btn {
         font-size: 35px;
-    }
+    } */
     .carousel .carousel-inner .carousel-caption h3 {
         font-size: 40px;
     }

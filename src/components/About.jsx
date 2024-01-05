@@ -22,7 +22,7 @@ export default function About() {
                     <div className="container p-2">
                         <h2 className="body-headline font-face-gm p-5">FOUNDER</h2>
                         <div className="about-image nick container"></div>
-                        <div className="container">
+
                             <p className="pb-2">
                                 Nick is a first-generation college graduate whose journey 
                                 has been marked by resilience and determination. 
@@ -45,7 +45,7 @@ export default function About() {
                                 Nick founded RED, believing that Black and Latino college students 
                                 should be challenged more to be the best versions of themselves.
                             </p>
-                        </div>
+
                     </div>
                 </div>
             </div>

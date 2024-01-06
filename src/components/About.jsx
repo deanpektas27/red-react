@@ -8,7 +8,7 @@ export default function About() {
                 <div className="about-banner about-bg-image"></div>
                 <div className="main-headline">
                     <div className="container p-3 pb-5">
-                        <h2 className="body-headline font-face-gm p-5 mb-0">ABOUT US</h2>
+                        <h2 className="body-headline font-face-gm mt-4 mb-3">ABOUT US</h2>
                         <p>
                             The Resilience, Excellence, and Diversity Initiative is a 
                             501(c)(3) nonprofit organization founded in July 2023. 
@@ -20,7 +20,7 @@ export default function About() {
                 </div>
                 <div className="body-content pb-5">
                     <div className="container p-2">
-                        <h2 className="body-headline font-face-gm p-5">FOUNDER</h2>
+                        <h2 className="body-headline font-face-gm mt-4 mb-3">FOUNDER</h2>
                         <div className="row">
                             <div className="col-lg-5 mb-5">
                                 <div className="about-image nick container"></div>

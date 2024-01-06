@@ -58,8 +58,8 @@ export default function Contact() {
             <div className="contact-banner contact-bg-image"></div>
             <div className="font-face-gm">
                 <div className="main-headline">
-                    <div className="container">
-                        <h2 className="font-face-gm">CONTACT US</h2>
+                    <div className="container p-2">
+                        <h2 className="font-face-gm mt-4 mb-3">CONTACT US</h2>
                         <p>
                             Feel free to reach out to the RED
                             Initiative to connect or receive more

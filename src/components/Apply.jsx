@@ -11,7 +11,7 @@ export default function Apply() {
             <div className="font-face-gm">
                 <div className="main-headline">
                     <div className="container p-3 pb-5">
-                        <h2 className="font-face-gm p-5 mb-0">GENERAL REQUIREMENTS</h2>
+                        <h2 className="font-face-gm mt-4 mb-3">GENERAL REQUIREMENTS</h2>
                         <p className="pb-4">
                             To become a RED Leader, you will learn to build character, 
                             increase self-awareness, and develop resilience through 
@@ -30,7 +30,7 @@ export default function Apply() {
                 </div>
                 <div className="body-content">
                     <div className="container p-2">
-                        <h2 className="body-headline font-face-gm p-5">WHAT TO EXPECT</h2>
+                        <h2 className="body-headline font-face-gm mt-4 mb-3">WHAT TO EXPECT</h2>
                     
                     <div className="container p-2 pb-4">
                         <div className="row">
@@ -71,7 +71,7 @@ export default function Apply() {
                 </div>
                 </Container>
                 <div className="apply-banner-2 apply-bg-image-2"></div>
-                <div className="faq-box">
+                <div className="faq-box pt-4 pb-4">
                     <div className="container">
                         <h2 className="title">APPLICANT FAQ</h2>
                         <div>

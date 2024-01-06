@@ -22,7 +22,7 @@ export default function Home() {
             <HomeCarousel />
             <div className="main-headline">
                 <div className="container p-3 pb-5">
-                    <h2 className="font-face-gm p-5 mb-0">Become a RED Leader</h2>
+                    <h2 className="font-face-gm mt-4 mb-3">Become a RED Leader</h2>
                     <p>
                         The RED Initiative inspires Black and Latino college 
                         students to aim for and achieve higher ambitions, 
@@ -32,7 +32,7 @@ export default function Home() {
             </div>
             <div className="body-content">
                 <div className="container p-2">
-                    <h2 className="body-headline font-face-gm p-5">JOIN THE RED COMMUNITY</h2>
+                    <h2 className="text-center font-face-gm mt-4 mb-3">JOIN THE RED COMMUNITY</h2>
                 </div>
                 <Container className="body-content-item pb-5">
                     <div className="row">

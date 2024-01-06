@@ -20,7 +20,7 @@ export default function Program() {
             <div className="font-face-gm">
                 <div className="main-headline">
                     <div className="container p-3 pb-5">
-                        <h2 className="body-headline font-face-gm p-5 mb-0">OUR PROGRAM</h2>
+                        <h2 className="body-headline font-face-gm mt-4 mb-3">OUR PROGRAM</h2>
                         <p>
                             The Leadership and Career Accelerator Program inspires 
                             candidates to aim for and achieve higher ambitions, 
@@ -29,9 +29,9 @@ export default function Program() {
                         </p>
                     </div>
                 </div>
-                <div className="body-content program-content pb-5">
-                    <div className="container p-2">
-                        <h2 className="body-headline font-face-gm p-5">HOW THE PROGRAM WORKS</h2>
+                <div className="body-content program-content pb-3">
+                    <div className="container">
+                        <h2 className="body-headline font-face-gm pt-5 pb-3">HOW THE PROGRAM WORKS</h2>
                     </div>
                     <Container className='body-content-item pb-3'>
                         <div className="row">

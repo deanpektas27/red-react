@@ -66,10 +66,7 @@ export default function Apply() {
                 </div>
                 <Container className="mb-5 mt-5">
                 <div className="apply-box">
-                    <h2 className="mb-2">JOIN THE RED INITIATIVE</h2>
-                    <p>
-                        * Applications open on June 3, 2024 *
-                    </p>
+                    <h2>Applications open on June 3, 2024</h2>
                     {/* <Button size="lg" className="apply-btn">APPLY</Button> */}
                 </div>
                 </Container>

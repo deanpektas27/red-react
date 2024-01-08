@@ -1,4 +1,5 @@
 import ContactFooter from "./ContactFooter"
+import NickImage from './../assets/06_About/Nick-min.jpg'
 import './../styles/about.css'
 
 export default function About() {
@@ -16,17 +17,28 @@ export default function About() {
                             development of ambitious Black and Latino college students 
                             through direct and intense coaching.
                         </p>
+                        <p>
+                        We are driven by our five core values: Accountability, Community, Growth, Leadership, and Trust.
+                        </p>
                     </div>
                 </div>
                 <div className="body-content pb-5">
-                    <div className="container p-2">
-                        <h2 className="body-headline font-face-gm mt-4 mb-3">FOUNDER</h2>
-                        <div className="row">
-                            <div className="col-lg-5 mb-5">
-                                <div className="about-image nick container"></div>
-                            </div>
-                            <div className="col-lg-7">
+                    <div className="container p-3">
+                        <div className="row mt-5">
+                            <div className="col-lg-4">
+                                {/* <div className="about-image nick container"></div> */}
                                 <div className="container">
+                                    <div className="body-image">
+                                        <img className="d-block img-fluid m-auto" src={NickImage} alt="Body Image 1" />
+                                    </div>
+                                    <div className="about-image-name">
+                                        <h2 className="mb-0 mt-3">Nick Guillen</h2>
+                                        <p className="mb-3">Founder</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div className="col-lg-8">
                                     <p id="nick-summary">
                                         Nick is a first-generation college graduate whose journey 
                                         has been marked by resilience and determination. 
@@ -49,7 +61,7 @@ export default function About() {
                                         Nick founded RED, believing that Black and Latino college students 
                                         should be challenged more to be the best versions of themselves.
                                     </p>
-                                </div>
+
                             </div>
                         </div>
                     </div>

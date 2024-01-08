@@ -13,16 +13,25 @@
 .body-content .container #nick-summary {
     text-align: left;
     font-size: 1.5rem;
+    font-family: 'LTAsusRegular'
 }
 
-.body-content .about-image{
+/* .body-content .about-image{
     background-image: url('./../assets/06_About/Nick-min.jpg');
-    height: 600px;
+    height: 500px;
     margin-left: auto;
     margin-right: auto;
     background-position: top;
     background-repeat: no-repeat;
 
+} */
+
+.body-image img {
+    width: 100%
+}
+
+.about-image-name p {
+    font-size: 1.5rem;
 }
 
 .main-headline .container p {

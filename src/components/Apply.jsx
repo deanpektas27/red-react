@@ -89,13 +89,13 @@ export default function Apply() {
                                 there will be a few workshops with volunteer professionals assisting.
                             </p>
                         </div>
-                        <div>
+                        {/* <div>
                             <h2>Will I receive a mentor?</h2>
                             <p>
                                 Upon successful completion of the LCAP program, you will 
                                 receive a mentor working in the financial services industry.
                             </p>
-                        </div>
+                        </div> */}
                         <div>
                             <h2>I am a graduate student. Am I eligible?</h2>
                             <p>

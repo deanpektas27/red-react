@@ -82,7 +82,7 @@
     }
 }
 
-@media screen and (min-width: 771px) and (max-width: 1026px) {
+/* @media screen and (min-width: 771px) and (max-width: 1026px) {
     #row1, #row2, #row3 {
         margin-left: 5rem!important;
         margin-right: 5rem!important;
@@ -98,11 +98,10 @@
         margin-left: 10rem!important;
         margin-right: 10rem!important;
     }
-}
+} */
 
-@media screen and (min-width: 1538px) {
-    #row3 {
-        margin-left: 20rem!important;
-        margin-right: 20rem!important;
+@media screen and (max-width: 1552px) {
+    .empty-student {
+        display:none!important;
     }
 }

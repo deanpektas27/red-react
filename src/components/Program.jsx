@@ -31,7 +31,7 @@ export default function Program() {
                 </div>
                 <div className="body-content program-content pb-3">
                     <div className="container">
-                        <h2 className="body-headline font-face-gm pt-5 pb-3">HOW THE PROGRAM WORKS</h2>
+                        <h2 className="body-headline font-face-gm pt-5 pb-3">HOW LCAP WORKS</h2>
                     </div>
                     <Container className='body-content-item pb-3'>
                         <div className="row">

@@ -21,9 +21,9 @@ export default function Home() {
         <>
             <HomeCarousel />
             <div className="main-headline">
-                <div className="container p-3 pb-5">
-                    <h2 className="font-face-gm mt-4 mb-3">Become a RED Leader</h2>
-                    <p>
+                <div className="container p-5">
+                    {/* <h2 className="font-face-gm mt-4 mb-3">Become a RED Leader</h2> */}
+                    <p className="mb-0">
                         The RED Initiative inspires Black and Latino college 
                         students to aim for and achieve higher ambitions, 
                         empowering them to thrive personally and professionally.
@@ -70,7 +70,7 @@ export default function Home() {
                                     as a mentor to a RED Leader.
                                 </p>
                                 <Link to='/get-involved'>
-                                    <Button size="lg" onClick={handleScrollToTop} className="body-btn">Learn More</Button>
+                                    <Button size="lg" onClick={handleScrollToTop} className="body-btn">Make an Impact</Button>
                                 </Link>
                             </div>
                         </div>
@@ -97,7 +97,7 @@ export default function Home() {
                         </div>
                     </div>
                 </Container>
-                <Container className="body-content-item pb-5 pt-5">
+                {/* <Container className="body-content-item pb-5 pt-5">
                     <div className="row">
                         <div className="col">
                             <div className="body-image">
@@ -112,11 +112,11 @@ export default function Home() {
                                 <br />
                                 (Coming Soon)
                                 </p>
-                                {/* <Button size="lg" className="body-btn">Donate</Button> */}
+                                <Button size="lg" className="body-btn">Donate</Button>
                             </div>
                         </div>
                     </div>
-                </Container>
+                </Container> */}
             </div>
             <ContactFooter />
         </>

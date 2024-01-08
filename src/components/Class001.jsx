@@ -143,6 +143,7 @@ export default function Class001() {
                             <h4 className="">Jazmin Solano</h4>
                             <p>CUNY Baruch College</p>
                         </div>
+                        <div className="col empty-student" id="student"></div>
                     </div>
                 </div>
             </div>

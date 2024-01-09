@@ -29,9 +29,9 @@ export default function About() {
                                 {/* <div className="about-image nick container"></div> */}
                                 <div className="container">
                                     <div className="body-image">
-                                        <img className="d-block img-fluid" id="nick-image" src={NickImage} alt="Body Image 1" />
+                                        <img className="d-block img-fluid m-auto" id="nick-image" src={NickImage} alt="Body Image 1" />
                                     </div>
-                                    <div className="about-image-name">
+                                    <div className="about-image-name text-center">
                                         <h2 className="mb-0 mt-3">Nick Guillen</h2>
                                         <p className="mb-3">Founder</p>
                                     </div>

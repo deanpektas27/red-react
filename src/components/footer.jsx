@@ -8,6 +8,11 @@ import Logo from './../assets/black_logo.png'
 import './../styles/footer.css'
 
 export default function Footer() {
+
+    const handleScrollToTop = () => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
     return (
         <footer className="footer gap-4">
                 <div className="container">
@@ -29,9 +34,9 @@ export default function Footer() {
                                 <li>
                                     <Link to="/get-involved">Get Involved</Link>
                                 </li>
-                                <li>
+                                {/* <li>
                                     <Link to="/donate">Donate</Link>
-                                </li>
+                                </li> */}
                                 <li>
                                     <Link to="/about">About</Link>
                                 </li>

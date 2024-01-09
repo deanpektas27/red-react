@@ -27,6 +27,10 @@
     margin-bottom: 80px;
 }
 
+.carousel .carousel-control-prev, .carousel .carousel-control-next {
+    display:none!important;
+}
+
 .carousel .carousel-inner .carousel-caption h3 {
     font-family: "LTAsusHeavy";
     font-weight: bolder;
@@ -61,11 +65,29 @@
         margin: 0px!important;
     }
     .carousel .carousel-inner .btn-lg, .row .body-text .body-btn {
-        font-size: 20px;
+        font-size: 10px;
+        padding: .3rem 1.5rem;
     }
     .carousel .carousel-inner .carousel-caption h3 {
-        font-size: 30px;
+        font-size: 20px;
+        margin-bottom: 0!important;
     }
+    .carousel-image {
+        height: 25vh;
+    }
+    .carousel .carousel-inner .carousel-caption {
+        padding-bottom:0;
+        text-align: center;
+        margin-bottom:30px;
+    }
+    .carousel .carousel-indicators button {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        margin-left: 4px;
+        margin-right: 4px;
+    }
+    
 }
 
 @media screen and (min-width: 768px) and (max-width: 1400px) {

@@ -27,7 +27,7 @@
 } */
 
 .body-image #nick-image {
-    width: 90%
+    width: 329px
 }
 
 .about-image-name p {
@@ -41,6 +41,6 @@
 
 @media screen and (max-width:991px) {
     #nick-summary {
-        width:95%
+        
     }
 }

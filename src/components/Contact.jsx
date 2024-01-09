@@ -61,7 +61,7 @@ export default function Contact() {
                     <div className="container p-2">
                         <h2 className="font-face-gm mt-4 mb-3">CONTACT US</h2>
                         <p>
-                            Feel free to reach out to the RED
+                            Feel free to reach out to The RED
                             Initiative to connect or receive more
                             information.    
                         </p>

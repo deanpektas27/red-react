@@ -32,9 +32,9 @@ export default function Home() {
             </div>
             <div className="body-content">
                 <div className="container p-2">
-                    <h2 className="text-center font-face-gm mt-4 mb-3">JOIN THE RED COMMUNITY</h2>
+                    <h2 className="text-center font-face-gm mt-4 mb-4">JOIN THE RED COMMUNITY</h2>
                 </div>
-                <Container className="body-content-item pb-5">
+                <Container className="body-content-item pb-4">
                     <div className="row">
                         <div className="col">
                             <div className="body-text">
@@ -48,18 +48,18 @@ export default function Home() {
 
                             </div>
                         </div>
-                        <div className="col">
+                        <div className="col col-image">
                             <div className="body-image">
-                                <img className="img-fluid" src={BodyImage1} alt="Body Image 1" />
+                                <img className="d-block img-fluid" id="home-image" src={BodyImage1} alt="Body Image 1" />
                             </div>
                         </div>
                     </div>
                 </Container>
-                <Container className="body-content-item pb-5 pt-5">
+                <Container className="body-content-item pt-4 pb-4">
                     <div className="row">
-                        <div className="col">
+                        <div className="col col-image">
                             <div className="body-image">
-                                <img className="d-block img-fluid" src={BodyImage2} alt="Body Image 1" />
+                                <img className="d-block img-fluid" id="home-image" src={BodyImage2} alt="Body Image 1" />
                             </div>
                         </div>
                         <div className="col">
@@ -76,7 +76,7 @@ export default function Home() {
                         </div>
                     </div>
                 </Container>
-                <Container className="body-content-item pb-5 pt-5">
+                <Container className="body-content-item pt-4 pb-5">
                     <div className="row">
                         <div className="col">
                             <div className="body-text">
@@ -90,9 +90,9 @@ export default function Home() {
 
                             </div>
                         </div>
-                        <div className="col">
+                        <div className="col col-image">
                             <div className="body-image">
-                                <img className="d-block img-fluid" src={BodyImage3} alt="Body Image 1" />
+                                <img className="d-block img-fluid" id="home-image" src={BodyImage3} alt="Body Image 1" />
                             </div>
                         </div>
                     </div>

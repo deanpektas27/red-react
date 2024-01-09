@@ -2,9 +2,15 @@ import ContactFooter from "./ContactFooter"
 import Container from "react-bootstrap/Container"
 import {Row, Col, Button} from "react-bootstrap"
 import Arrow from './../assets/arrowpoint.svg'
+import { Link } from 'react-router-dom';
 import './../styles/apply.css'
 
 export default function Apply() {
+
+    const handleScrollToTop = () => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
     return (
         <>
             <div className="apply-banner apply-bg-image"></div>
@@ -52,7 +58,7 @@ export default function Apply() {
                                 <div className="container expect-content-container">
                                     <h2><span id="triangle-bullet">{`\u2023`}</span> Benefits</h2>
                                     <p id="what-to-expect-content">
-                                        You will receive a stipend, a mentor, a graduation plaque, and a recommendation letter.
+                                        You will receive a stipend, a graduation plaque, and a recommendation letter.
                                     </p>
                                     <h2><span id="triangle-bullet">{`\u2023`}</span> Career Support</h2>
                                     <p id="what-to-expect-content">
@@ -67,7 +73,9 @@ export default function Apply() {
                 <Container className="mb-5 mt-5">
                 <div className="apply-box">
                     <h2>Applications open on June 3, 2024</h2>
-                    {/* <Button size="lg" className="apply-btn">APPLY</Button> */}
+                    <Link to='/contact'>
+                        <Button size="lg" onClick={handleScrollToTop} className="apply-btn">Notify me when applications open</Button>
+                    </Link>
                 </div>
                 </Container>
                 <div className="apply-banner-2 apply-bg-image-2"></div>
@@ -117,7 +125,7 @@ export default function Apply() {
                     </div>
                 </div>
             </div>
-            <ContactFooter />
+            {/* <ContactFooter /> */}
         </>
     )
 }

@@ -14,9 +14,9 @@ export default function Involve() {
             <div className="font-face-gm">
             <div className="involve-banner involve-bg-image"></div>
             <div className="main-headline">
-                <div className="container p-3 pb-5">
-                    <h2 className="font-face-gm mt-4 mb-3">MAKE AN IMPACT WITH US</h2>
-                    <p>
+                <div className="container p-5">
+                    <h2 className="font-face-gm mb-3">MAKE AN IMPACT WITH US</h2>
+                    <p className='mb-0'>
                         Help us in our mission by volunteering your time or 
                         providing opportunities for our RED Leaders.
                     </p>

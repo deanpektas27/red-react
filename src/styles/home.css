@@ -35,3 +35,10 @@
     line-height: 2.0rem;
     text-align:left;
 }
+
+@media screen and (max-width: 767px) {
+    .body-content-item .col-image {
+        display:none!important;
+    }
+
+}

@@ -75,7 +75,7 @@
 }
 
 .font-face-gm .apply-box .apply-btn {
-    padding: .3rem 4rem;
+    padding: .3rem 3rem;
     background-color: #CE3939;
     border-color: #CE3939;
     --bs-btn-active-bg: #CE3939;
@@ -101,5 +101,23 @@
 .faq-box p {
     font-size: 1.5rem;
     font-family: "LTAsusRegular"
+}
+
+@media screen and (max-width: 414px) {
+    .apply-box .apply-btn {
+        font-size:15px!important;
+    }
+}
+
+@media screen and (max-width: 446px) {
+    .font-face-gm .apply-box .apply-btn {
+        padding: .3rem 2rem;
+    }
+}
+
+@media screen and (min-width: 415px) and (max-width: 767px) {
+    .apply-box .apply-btn {
+        font-size:20px!important;
+    }
 }
 

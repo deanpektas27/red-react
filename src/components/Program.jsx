@@ -19,9 +19,9 @@ export default function Program() {
             <div className="program-banner bg-image"></div>
             <div className="font-face-gm">
                 <div className="main-headline">
-                    <div className="container p-3 pb-5">
-                        <h2 className="body-headline font-face-gm mt-4 mb-3">OUR PROGRAM</h2>
-                        <p>
+                    <div className="container p-5">
+                        <h2 className="body-headline font-face-gm mb-3">OUR PROGRAM</h2>
+                        <p className='mb-0'>
                             The Leadership and Career Accelerator Program inspires 
                             candidates to aim for and achieve higher ambitions, 
                             empowering them to thrive in their personal and 
@@ -83,11 +83,11 @@ export default function Program() {
                 </div>
                 <Container className="mb-5 mt-5">
                     <div className="alternate-contact-footer">
-                        <h2 className="mb-4"><span className="highlighted-text">INTERESTED?</span> APPLY NOW TO <br />JOIN OUR EMPOWERING COMMUNITY</h2>
+                        {/* <h2 className="mb-4"><span className="highlighted-text">INTERESTED?</span> APPLY NOW TO <br />JOIN OUR EMPOWERING COMMUNITY</h2> */}
                     </div>
                     <div className="right-side container">
-                        <Link to='/contact'>
-                            <Button size="lg" onClick={handleScrollToTop} className="body-btn">Contact Us</Button>
+                        <Link to='/apply'>
+                            <Button size="lg" onClick={handleScrollToTop} className="body-btn">Apply & FAQ</Button>
                         </Link>
                     </div>
                 </Container>

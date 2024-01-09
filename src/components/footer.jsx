@@ -43,17 +43,17 @@ export default function Footer() {
 
                     </div>
                     <div className="row">
-                        <div className="socials">
-                            <SocialIcon bgColor="white" fgColor="black" target="_blank" url="https://www.facebook.com/" />
+                        <div className="socials mb-3">
+                            {/* <SocialIcon bgColor="white" fgColor="black" target="_blank" url="https://www.facebook.com/" /> */}
                             <SocialIcon bgColor="white" fgColor="black" target="_blank" url="https://www.linkedin.com/company/theredinitiative/" />
-                            <SocialIcon bgColor="white" fgColor="black" target="_blank" url="https://www.twitter.com/theredinitiative/" />
+                            {/* <SocialIcon bgColor="white" fgColor="black" target="_blank" url="https://www.twitter.com/theredinitiative/" /> */}
                             <SocialIcon bgColor="white" fgColor="black" target="_blank" url="https://www.instagram.com/theredinitiative/" />
                         </div>
                         <p id="footer-text">
                             © 2024 The RED Initiative. All rights reserved.
                             <br />
                             All other logos are registered trademark of their 
-                            respective companies  
+                            respective companies. 
                         </p>
                     </div>
 

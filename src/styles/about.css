@@ -26,8 +26,8 @@
 
 } */
 
-.body-image img {
-    width: 100%
+.body-image #nick-image {
+    width: 90%
 }
 
 .about-image-name p {
@@ -37,4 +37,10 @@
 .main-headline .container p {
     font-size: 100%;
     font-family: 'LTAsusRegular'
+}
+
+@media screen and (max-width:991px) {
+    #nick-summary {
+        width:95%
+    }
 }

@@ -28,7 +28,7 @@ export default function NavBar() {
                     <Nav.Link className={splitLocation[1] === "apply" ? "active" : ""} as={Link} to="/apply" >Apply & FAQ</Nav.Link>
                     <Nav.Link className={splitLocation[1] === "get-involved" ? "active" : ""} as={Link} to="/get-involved" >Get Involved</Nav.Link>
                     {/* <Nav.Link className="nav-link-fade-up" as={Link} eventKey="/donate" to="/donate" disabled >Donate</Nav.Link> */}
-                    <Nav.Link className={splitLocation[1] === "contact" ? "active" : ""} as={Link} eventKey="/contact" to="/contact" >Contact Us</Nav.Link>
+                    <Nav.Link className={splitLocation[1] === "contact" ? "active" : ""} as={Link} to="/contact" >Contact Us</Nav.Link>
                 </Nav>
             </Navbar.Collapse>
         </Navbar>

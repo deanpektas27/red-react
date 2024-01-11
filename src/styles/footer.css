@@ -78,16 +78,19 @@
     #footer-logo {
         width: 40%
     }
-  }
-
-@media screen and (min-width: 992px) and (max-width: 1400px) {
     .footer-nav ul {
         font-size: 120%;
     }
-  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1400px) {
+    .footer-nav ul {
+        font-size: 140%;
+    }
+}
 
 @media screen and (min-width: 1401px) {
     .footer-nav ul {
-        font-size: 150%;
+        font-size: 170%;
     }
 }

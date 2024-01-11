@@ -74,7 +74,7 @@ export default function Apply() {
                 <div className="apply-box">
                     <h2>Applications open on June 3, 2024</h2>
                     <Link to='/contact'>
-                        <Button size="lg" onClick={handleScrollToTop} className="apply-btn">Notify me when applications open</Button>
+                        <Button size="lg" onClick={handleScrollToTop} className="apply-btn" id="btn">Notify me when applications open</Button>
                     </Link>
                 </div>
                 </Container>

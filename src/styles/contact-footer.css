@@ -34,3 +34,8 @@
     font-family: "LTAsusBold"!important;
     font-size:30px;
 }
+
+#home-btn {
+    padding: .5rem 3rem;
+    width: 240px;
+}

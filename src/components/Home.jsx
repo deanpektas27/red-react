@@ -39,11 +39,11 @@ export default function Home() {
                         <div className="col">
                             <div className="body-text">
                                 <h2 className="underlined-title">BECOME A RED LEADER</h2>
-                                <p className="pt-3">
+                                <p className="pt-2" id="home-body-paragraph">
                                     Challenge yourself by applying for our transformative program.
                                 </p>
                                 <Link to='/program'>
-                                    <Button size="lg" onClick={handleScrollToTop} className="body-btn">Learn More</Button>
+                                    <Button size="lg" onClick={handleScrollToTop} className="body-btn" id="home-btn">Learn More</Button>
                                 </Link>
 
                             </div>
@@ -55,7 +55,7 @@ export default function Home() {
                         </div>
                     </div>
                 </Container>
-                <Container className="body-content-item pt-4 pb-4">
+                <Container className="body-content-item pb-4">
                     <div className="row">
                         <div className="col col-image">
                             <div className="body-image">
@@ -65,27 +65,27 @@ export default function Home() {
                         <div className="col">
                             <div className="body-text">
                                 <h2 className="underlined-title">BECOME A MENTOR</h2>
-                                <p className="pt-3">
+                                <p className="pt-2" id="home-body-paragraph">
                                     Empower the next generation by sharing your wisdom and experiences 
                                     as a mentor to a RED Leader.
                                 </p>
                                 <Link to='/get-involved'>
-                                    <Button size="lg" onClick={handleScrollToTop} className="body-btn">Make an Impact</Button>
+                                    <Button size="lg" onClick={handleScrollToTop} className="body-btn" id="home-btn">Make an Impact</Button>
                                 </Link>
                             </div>
                         </div>
                     </div>
                 </Container>
-                <Container className="body-content-item pt-4 pb-5">
+                <Container className="body-content-item pb-5">
                     <div className="row">
                         <div className="col">
                             <div className="body-text">
                                 <h2 className="underlined-title">BECOME A PARTNER</h2>
-                                <p className="pt-3">
+                                <p className="pt-2" id="home-body-paragraph">
                                     Learn how you can tap into our diverse pool of talent.
                                 </p>
                                 <Link to='/get-involved'>
-                                    <Button size="lg" onClick={handleScrollToTop} className="body-btn">Find Talent</Button>
+                                    <Button size="lg" onClick={handleScrollToTop} className="body-btn" id="home-btn">Find Talent</Button>
                                 </Link>
 
                             </div>

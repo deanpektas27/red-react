@@ -64,8 +64,8 @@
     .carousel .carousel-control-prev, .carousel .carousel-control-next {
         margin: 0px!important;
     }
-    .carousel .carousel-inner .btn-lg, .row .body-text .body-btn {
-        font-size: 10px;
+    #carousel-btn {
+        font-size: 15px;
         padding: .3rem 1.5rem;
     }
     .carousel .carousel-inner .carousel-caption h3 {

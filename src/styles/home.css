@@ -23,15 +23,15 @@
 
 .body-content-item {
     display: flex;
-    justify-content: center;
     margin-left: auto;
     margin-right: auto;
+    width: 100%;
 
 }
 
-.body-text .pt-3 {
+.body-text .pt-2 {
     font-family: "LTAsusLight";
-    font-size: 1.8rem;
+    font-size: 1.7rem;
     line-height: 2.0rem;
     text-align:left;
 }
@@ -41,4 +41,10 @@
         display:none!important;
     }
 
+}
+
+@media screen and (max-width: 991px) {
+    .body-text .pt-2 {
+        font-size: 1.4rem;
+    }
 }

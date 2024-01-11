@@ -11,14 +11,14 @@ export default function HomeCarousel() {
                 <Carousel.Caption>
                     <h3>CONGRATULATIONS TO CLASS 001!</h3>
                     <Link to='/class001'>
-                        <Button size="lg">Read their Stories</Button>
+                        <Button size="lg" id="carousel-btn">Read their Stories</Button>
                     </Link>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item className="carousel-image bg-img-2">
                 <Carousel.Caption>
                     <h3>BRING YOUR KNOWLEDGE</h3>
-                    <Button size="lg" target='_blank' href="https://docs.google.com/forms/d/e/1FAIpQLSdjLuI0Pg36Z5qF7Ph4WwneAaaCDizPREO9CPMZPEpnArulFg/viewform">Volunteer</Button>
+                    <Button size="lg" id="carousel-btn" target='_blank' href="https://docs.google.com/forms/d/e/1FAIpQLSdjLuI0Pg36Z5qF7Ph4WwneAaaCDizPREO9CPMZPEpnArulFg/viewform">Volunteer</Button>
                 </Carousel.Caption>
             </Carousel.Item>
             {/* <Carousel.Item className="carousel-image bg-img-3">

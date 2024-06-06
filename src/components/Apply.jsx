@@ -41,7 +41,7 @@ export default function Apply() {
                     <div className="container p-2 pb-4">
                         <div className="row">
                             <div className="col">
-                                <h2 className="m-auto mb-4 underline">DURING LCAP</h2>
+                                <h2 className="m-auto mb-4 underline">DURING FoM</h2>
                                 <div className="container expect-content-container">
                                     <h2><span id="triangle-bullet">{`\u2023`}</span> Programming</h2>
                                     <p id="what-to-expect-content">
@@ -54,7 +54,7 @@ export default function Apply() {
                                 </div>
                             </div>
                             <div className="col">
-                                <h2 className="m-auto mb-4 underline">AFTER LCAP</h2>
+                                <h2 className="m-auto mb-4 underline">AFTER FoM</h2>
                                 <div className="container expect-content-container">
                                     <h2><span id="triangle-bullet">{`\u2023`}</span> Benefits</h2>
                                     <p id="what-to-expect-content">
@@ -100,7 +100,7 @@ export default function Apply() {
                         {/* <div>
                             <h2>Will I receive a mentor?</h2>
                             <p>
-                                Upon successful completion of the LCAP program, you will 
+                                Upon successful completion of the FoM program, you will 
                                 receive a mentor working in the financial services industry.
                             </p>
                         </div> */}

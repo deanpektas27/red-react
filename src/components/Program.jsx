@@ -22,7 +22,7 @@ export default function Program() {
                     <div className="container p-5">
                         <h2 className="body-headline font-face-gm mb-3">OUR PROGRAM</h2>
                         <p className='mb-0'>
-                            The Leadership and Career Accelerator Program inspires 
+                            The Fellowship of Merit inspires 
                             candidates to aim for and achieve higher ambitions, 
                             empowering them to thrive in their personal and 
                             professional lives.
@@ -74,7 +74,7 @@ export default function Program() {
                                     <h1>4. GRADUATION</h1>
                                     <p className="pt-3">
                                     Upon passing the three phases, Candidates will graduate to become 
-                                    RED Leaders and receive their stipend and a mentor.
+                                    RED Leaders.
                                     </p>
                                 </div>
                             </div>

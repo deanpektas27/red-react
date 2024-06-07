@@ -1,2 +1,2 @@
 # red-react
-A full-fledged webapp for The RED Initiative, developed by Dean Pektas
+A landing page powered by Vite for The RED Initiative, developed by Dean Pektas

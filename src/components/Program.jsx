@@ -64,7 +64,7 @@ export default function Program() {
                                     <h1>3. RUN PHASE</h1>
                                     <p className="pt-3">
                                         Candidates will learn technical-based skills such as Excel and 
-                                        PowerPoint and gain insights into different career paths in 
+                                        PowerPoint, and gain insights into different career paths in 
                                         financial services.
                                     </p>
                                 </div>

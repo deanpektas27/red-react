@@ -55,7 +55,7 @@ export default function Home() {
                         </div>
                     </div>
                 </Container>
-                <Container className="body-content-item pb-4">
+                {/* <Container className="body-content-item pb-4">
                     <div className="row">
                         <div className="col col-image">
                             <div className="body-image">
@@ -75,9 +75,14 @@ export default function Home() {
                             </div>
                         </div>
                     </div>
-                </Container>
-                <Container className="body-content-item pb-5">
+                </Container> */}
+                <Container className="body-content-item pb-5 pt-5">
                     <div className="row">
+                        <div className="col col-image">
+                            <div className="body-image">
+                                <img className="d-block img-fluid" id="home-image" src={BodyImage3} alt="Body Image 1" />
+                            </div>
+                        </div>
                         <div className="col">
                             <div className="body-text">
                                 <h2 className="underlined-title">BECOME A PARTNER</h2>
@@ -88,11 +93,6 @@ export default function Home() {
                                     <Button size="lg" onClick={handleScrollToTop} className="body-btn" id="home-btn">Find Talent</Button>
                                 </Link>
 
-                            </div>
-                        </div>
-                        <div className="col col-image">
-                            <div className="body-image">
-                                <img className="d-block img-fluid" id="home-image" src={BodyImage3} alt="Body Image 1" />
                             </div>
                         </div>
                     </div>

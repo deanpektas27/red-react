@@ -23,7 +23,7 @@ export default function Involve() {
                 </div>
             </div>
             <div className="body-content pb-5">
-                <div className="container p-3 pb-5">
+                {/* <div className="container p-3 pb-5">
                     <h2 className="body-headline font-face-gm mt-4 mb-3">VOLUNTEER AS A MENTOR</h2>
                     <div className="involve-images involve-image1 mb-4"></div>
                     <p className=" pb-3">
@@ -34,7 +34,7 @@ export default function Involve() {
                     <div id="get-involved-btn">
                         <Button size="lg" className="apply-btn mb-5" target='_blank' href="https://docs.google.com/forms/d/e/1FAIpQLSdjLuI0Pg36Z5qF7Ph4WwneAaaCDizPREO9CPMZPEpnArulFg/viewform">Volunteer</Button>       
                     </div>
-                </div>
+                </div> */}
                 <div className="container p-2">
                     <h2 className="body-headline font-face-gm mt-4 mb-3">BECOME A RED PARTNER</h2>
                     <div className="involve-images involve-image2 mb-4"></div>

@@ -58,7 +58,7 @@ export default function Apply() {
                                 <div className="container expect-content-container">
                                     <h2><span id="triangle-bullet">{`\u2023`}</span> Benefits</h2>
                                     <p id="what-to-expect-content">
-                                        You will receive a stipend, a graduation plaque, and a recommendation letter.
+                                    You will receive personal and professional development, a graduation plaque, and a recommendation letter.
                                     </p>
                                     <h2><span id="triangle-bullet">{`\u2023`}</span> Career Support</h2>
                                     <p id="what-to-expect-content">
@@ -73,9 +73,18 @@ export default function Apply() {
                 <Container className="mb-5 mt-5">
                 <div className="apply-box">
                     <h2>Applications open on June 3, 2024</h2>
-                    <Link to='/contact'>
-                        <Button size="lg" onClick={handleScrollToTop} className="apply-btn" id="btn">Notify me when applications open</Button>
-                    </Link>
+                    {/* <Link to='/contact'> */}
+                        <Button 
+                            size="lg" 
+                            onClick={handleScrollToTop} 
+                            className="apply-btn" 
+                            id="btn" 
+                            href="https://docs.google.com/forms/u/1/d/e/1FAIpQLSczpKyLLwvTUjtnfuEn8n8ph0kChcjqZcBPbzswDBzHSqamSA/viewform"
+                            target="_blank"
+                        >
+                                Apply Here
+                        </Button>
+                    {/* </Link> */}
                 </div>
                 </Container>
                 <div className="apply-banner-2 apply-bg-image-2"></div>

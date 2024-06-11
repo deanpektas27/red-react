@@ -72,7 +72,7 @@ export default function Apply() {
                 </div>
                 <Container className="mb-5 mt-5">
                 <div className="apply-box">
-                    <h2>Applications open on June 3, 2024</h2>
+                    {/* <h2>Applications open on June 3, 2024</h2> */}
                     {/* <Link to='/contact'> */}
                         <Button 
                             size="lg" 

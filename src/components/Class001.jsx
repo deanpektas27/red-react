@@ -46,12 +46,27 @@ export default function Class001() {
                 </Modal.Header>
                 <Modal.Body>
                     <div className="container">
-                        <img className="headshot" alt="" src={`/assets/${student[0]}-min.png`} />
-                        <h3>{student[1]}</h3>
-                        <h5 id="modal-student-school">{student[2]}</h5>
-                        <p id="modal-student-school">{student[3]}</p>
-                        <p id="modal-student-school">{student[4]}</p>
-                        <p id="modal-student-school">{student[5]}</p>
+                        <div className="row">
+                            <div className="col-lg-4">
+                                <div className="container">
+                                    <img className="headshot" alt="" src={`/assets/${student[0]}-min.png`} />
+                                </div>
+                            </div>
+                            <div className="col-lg-8">
+                                <div className="container">
+                                <h3>{student[1]}</h3>
+                                    <h5 id="modal-student-school">{student[2]}</h5>
+                                </div>
+
+                            </div>
+                            <div className="pb-2">
+                                <div className="container">
+                                    <p id="modal-student-school">{student[3]}</p>
+                                    <p id="modal-student-school">{student[4]}</p>
+                                    <p id="modal-student-school">{student[5]}</p>
+                                </div>
+                            </div>
+                        </div>  
                     </div>
                 </Modal.Body>
             </Modal>

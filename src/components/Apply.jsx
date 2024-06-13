@@ -72,18 +72,18 @@ export default function Apply() {
                 </div>
                 <Container className="mb-5 mt-5">
                 <div className="apply-box">
-                    {/* <h2>Applications open on June 3, 2024</h2> */}
                     {/* <Link to='/contact'> */}
                         <Button 
                             size="lg" 
                             onClick={handleScrollToTop} 
-                            className="apply-btn" 
+                            className="apply-btn mb-4" 
                             id="btn" 
                             href="https://docs.google.com/forms/u/1/d/e/1FAIpQLSczpKyLLwvTUjtnfuEn8n8ph0kChcjqZcBPbzswDBzHSqamSA/viewform"
                             target="_blank"
                         >
                                 Apply Here
                         </Button>
+                        <h3>Deadline to apply: Sunday, August 25 at 11:59pm EST</h3>
                     {/* </Link> */}
                 </div>
                 </Container>

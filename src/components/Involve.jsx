@@ -17,8 +17,7 @@ export default function Involve() {
                 <div className="container p-5">
                     <h2 className="font-face-gm mb-3">MAKE AN IMPACT WITH US</h2>
                     <p className='mb-0'>
-                        Help us in our mission by volunteering your time or 
-                        providing opportunities for our RED Leaders.
+                        Help us in our mission by sharing opportunities for our RED Leaders.
                     </p>
                 </div>
             </div>

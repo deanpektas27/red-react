@@ -26,7 +26,10 @@ export default function Footer() {
                         <div className="col-lg-10 footer-nav ">
                             <ul>
                                 <li>
-                                    <Link to="/program">Our Program</Link>
+                                    <Link to="/about">About</Link>
+                                </li>
+                                <li>
+                                    <Link to="/program">Program</Link>
                                 </li>
                                 <li>
                                     <Link to="/apply">Apply & FAQ</Link>
@@ -34,11 +37,8 @@ export default function Footer() {
                                 <li>
                                     <Link to="/get-involved">Get Involved</Link>
                                 </li>
-                                {/* <li>
-                                    <Link to="/donate">Donate</Link>
-                                </li> */}
                                 <li>
-                                    <Link to="/about">About</Link>
+                                    <Link to="/contact">Contact Us</Link>
                                 </li>
                             </ul>
                         </div>

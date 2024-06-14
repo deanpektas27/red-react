@@ -39,9 +39,9 @@ app.get('/api/contact', (req, res) => {
     })
 })
 
-app.get('*', (req, res) => {
-    res.redirect('/');
-})
+// app.get('/', (req, res) => {
+//     res.redirect('/home');
+// })
 
 app.post('/api/contact', (req, res) => {
     let firstname = req.body.firstname

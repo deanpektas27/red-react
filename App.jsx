@@ -19,7 +19,7 @@ function App() {
     <>
       <NavBar />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/home" element={<Home />} />
           <Route path="/program" element={<Program />} />
           <Route path="/apply" element={<Apply />} />
           <Route path="/get-involved" element={<Involve />} />

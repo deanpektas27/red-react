@@ -1,3 +1,5 @@
 node_modules
 src/.DS_Store
 .env
+src/server/dist
+src/server/dist.zip

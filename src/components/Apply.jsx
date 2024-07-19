@@ -45,7 +45,7 @@ export default function Apply() {
                                 <div className="container expect-content-container">
                                     <h2><span id="triangle-bullet">{`\u2023`}</span> Programming</h2>
                                     <p id="what-to-expect-content">
-                                        You will meet twice a week for four months in a hybrid setting.
+                                        You will meet twice a week for four months in a virtual setting.
                                     </p>
                                     <h2><span id="triangle-bullet">{`\u2023`}</span> Professional and Leadership Skills</h2>
                                     <p id="what-to-expect-content">

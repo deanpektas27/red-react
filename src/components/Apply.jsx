@@ -30,7 +30,7 @@ export default function Apply() {
                             <li>Identify as Black/African-American or Hispanic/Latino</li>
                             <li>Cumulative GPA of 3.2; freshmen do not have a required minimum GPA</li>
                             <li>Majoring in Accounting, Economics, Finance, or another related major</li>
-                            {/* <li>Attending an accredited college in the New York City metro area (NJ/CT included)</li> */}
+                            <li>Attending an accredited college</li>
                         </ul>
                     </div>
                 </div>

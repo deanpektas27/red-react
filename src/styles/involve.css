@@ -1,15 +1,15 @@
 .involve-bg-image {
-    background-image: url('./../assets/04_Get_Involved/pexels-christina-morillo-1181405-min.jpg');
-    background-position-x: 50%;
+    background-image: url('./../assets/04_Get_Involved/get-involved.jpg');
+    background-position-x: 30%;
 }
 
-.involve-image1 {
+/* .involve-image1 {
     background-image: url('./../assets/04_Get_Involved/pexels-darlene-alderson-7971229-min.jpg');
-}
+} */
 
 .involve-image2 {
-    background-image: url('./../assets/04_Get_Involved/pexels-diva-plavalaguna-6149784-min.jpg');
-    background-position-x:70%;
+    background-image: url('./../assets/04_Get_Involved/red-partner.jpg');
+    background-position-x:50%;
 }
 
 .involve-banner {
@@ -32,10 +32,10 @@
 
 #get-involved-btn .apply-btn {
     padding: .3rem 4rem;
-    background-color: #CE3939;
-    border-color: #CE3939;
-    --bs-btn-active-bg: #CE3939;
-    --bs-btn-active-border-color: #CE3939;
+    background-color: #cc2323;
+    border-color: #cc2323;
+    --bs-btn-active-bg: #cc2323;
+    --bs-btn-active-border-color: #cc2323;
     border-radius: 60px;
     font-family: "LTAsusBold"!important;
     font-size: 2rem;

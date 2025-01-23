@@ -1,11 +1,11 @@
 .bg-img-1 {
-    background-image: url('./../assets/01_Home_page/Carousel/class1_group-min.png');
+    background-image: url('./../assets/01_Home_page/Carousel/Home.jpg');
     background-position-y: 5%;
-    background-position-x: 60%;
+    background-position-x: 20%;
 }
 
 .bg-img-2 {
-    background-image: url('./../assets/01_Home_page/Carousel/pexels-christina-morillo-1181605-min.jpg');
+    background-image: url('./../assets/01_Home_page/Carousel/Home2.jpg');
     background-position-y: 40%;
     background-position-x: 60%;
 }
@@ -39,10 +39,10 @@
 
 .carousel .carousel-inner .btn-lg, .row .body-text .body-btn {
     padding: .3rem 2.5rem;
-    background-color: #CE3939;
-    border-color: #CE3939;
-    --bs-btn-active-bg: #CE3939;
-    --bs-btn-active-border-color: #CE3939;
+    background-color: #cc2323;
+    border-color: #cc2323;
+    --bs-btn-active-bg: #cc2323;
+    --bs-btn-active-border-color: #cc2323;
     border-radius: 60px;
     font-family: "LTAsusBold"!important;
 }

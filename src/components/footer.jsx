@@ -52,7 +52,7 @@ export default function Footer() {
                             <SocialIcon bgColor="white" fgColor="black" target="_blank" url="https://www.instagram.com/theredinitiative/" />
                         </div>
                         <p id="footer-text">
-                            © 2024 The Resilience, Excellence, and Diversity Initiative. All rights reserved.
+                            © 2025 The Resilience, Excellence, and Diversity Initiative. All rights reserved.
                             <br />
                             All other logos are registered trademark of their 
                             respective companies. 

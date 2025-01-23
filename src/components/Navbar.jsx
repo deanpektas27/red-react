@@ -1,6 +1,6 @@
 import { Link, useLocation } from 'react-router-dom';
 import {Navbar, Nav, NavItem, Container} from "react-bootstrap";
-import Logo from '../assets/red_logo.png'
+import Logo from '../assets/red_transparent_logo.png'
 
 export default function NavBar() {
 
@@ -36,7 +36,7 @@ export default function NavBar() {
                     <Nav.Link className={splitLocation[1] === "program" ? "active" : ""} as={Link} to="/program" eventKey="/program" >Program</Nav.Link>
                     <Nav.Link className={splitLocation[1] === "apply" ? "active" : ""} as={Link} to="/apply" eventKey="/apply" >Apply & FAQ</Nav.Link>
                     <Nav.Link className={splitLocation[1] === "get-involved" ? "active" : ""} as={Link} to="/get-involved" eventKey="/get-involved" >Get Involved</Nav.Link>
-                    {/* <Nav.Link className="nav-link-fade-up" as={Link} eventKey="/donate" to="/donate" disabled >Donate</Nav.Link> */}
+                    <Nav.Link className={splitLocation[1] === "donate" ? "active" : ""} as={Link} eventKey="/donate" to="https://secure.givelively.org/donate/resilience-excellence-and-diversity-initiative-inc" target='_blank' >Donate</Nav.Link>
                     <Nav.Link className={splitLocation[1] === "contact" ? "active" : ""} as={Link} to="/contact" eventKey="/contact" >Contact Us</Nav.Link>
                 </Nav>
             </Navbar.Collapse>

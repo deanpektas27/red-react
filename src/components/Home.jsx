@@ -5,9 +5,9 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Button from "react-bootstrap/Button";
 import { Link } from 'react-router-dom';
-import BodyImage1 from './../assets/01_Home_page/pexels-darlene-alderson-7970846-min.jpg';
+import BodyImage1 from './../assets/01_Home_page/Final1.png';
 import BodyImage2 from './../assets/01_Home_page/pexels-alexander-suhorucov-6457488-min.jpg';
-import BodyImage3 from './../assets/01_Home_page/pexels-thirdman-7994325-min.jpg';
+import BodyImage3 from './../assets/01_Home_page/RED-05.jpg';
 import BodyImage4 from './../assets/01_Home_page/pexels-edmond-dantès-8553862-min.jpg';
 import './../styles/home.css'
 
@@ -40,7 +40,7 @@ export default function Home() {
                             <div className="body-text">
                                 <h2 className="underlined-title">BECOME A RED LEADER</h2>
                                 <p className="pt-2" id="home-body-paragraph">
-                                    Challenge yourself by applying for our transformative program.
+                                    Challenge yourself by applying for our transformative program. You will develop the skills and confidence needed to succeed in your career.
                                 </p>
                                 <Link to='/program'>
                                     <Button size="lg" onClick={handleScrollToTop} className="body-btn" id="home-btn">Learn More</Button>
@@ -80,14 +80,14 @@ export default function Home() {
                     <div className="row">
                         <div className="col col-image">
                             <div className="body-image">
-                                <img className="d-block img-fluid" id="home-image" src={BodyImage3} alt="Body Image 1" />
+                                <img className="d-block img-fluid" id="home-image" src={BodyImage3} alt="Body Image 3" />
                             </div>
                         </div>
                         <div className="col">
                             <div className="body-text">
                                 <h2 className="underlined-title">BECOME A PARTNER</h2>
                                 <p className="pt-2" id="home-body-paragraph">
-                                    Learn how you can tap into our diverse pool of talent.
+                                    Learn how you can tap into our diverse pool of talent. Our RED Leaders possess the expertise and drive to make a meaningful impact within your organization.
                                 </p>
                                 <Link to='/get-involved'>
                                     <Button size="lg" onClick={handleScrollToTop} className="body-btn" id="home-btn">Find Talent</Button>

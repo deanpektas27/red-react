@@ -6,10 +6,10 @@
 
 .body-content .container .body-btn {
   padding: .3rem 2.5rem;
-  background-color: #CE3939;
-  border-color: #CE3939;
-  --bs-btn-active-bg: #CE3939;
-  --bs-btn-active-border-color: #CE3939;
+  background-color: #cc2323;
+  border-color: #cc2323;
+  --bs-btn-active-bg: #cc2323;
+  --bs-btn-active-border-color: #cc2323;
   border-radius: 60px;
   font-family: "LTAsusBold"!important;
 }

@@ -1,9 +1,10 @@
 .apply-bg-image {
-    background-image: url('./../assets/03_Apply&FAQ/pexels-darlene-alderson-7970846-min.jpg');
+    background-image: url('./../assets/03_Apply&FAQ/apply-faq-hero.jpg');
+    background-position-x: center;
 }
 
 .apply-bg-image-2 {
-    background-image: url('./../assets/03_Apply&FAQ/desola-lanre-ologun-IgUR1iX0mqM-unsplash-min.jpg');
+    background-image: url('./../assets/03_Apply&FAQ/apply-faq-footer.jpg');
 }
 
 .apply-banner {
@@ -76,10 +77,10 @@
 
 .font-face-gm .apply-box .apply-btn {
     padding: .3rem 3rem;
-    background-color: #CE3939;
-    border-color: #CE3939;
-    --bs-btn-active-bg: #CE3939;
-    --bs-btn-active-border-color: #CE3939;
+    background-color: #cc2323;
+    border-color: #cc2323;
+    --bs-btn-active-bg: #cc2323;
+    --bs-btn-active-border-color: #cc2323;
     border-radius: 60px;
     font-family: "LTAsusBold"!important;
     /* font-size: 2rem; */
@@ -90,7 +91,7 @@
 }
 
 .faq-box {
-    background-color: #CE3939;
+    background-color: #cc2323;
 }
 
 .faq-box .title {

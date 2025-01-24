@@ -10,7 +10,7 @@ export default function HomeCarousel() {
             <Carousel.Item className="carousel-image bg-img-1">
                 <Carousel.Caption>
                     <h3>Meet the RED Leaders</h3>
-                    <Link to='/class001'>
+                    <Link to='/stories'>
                         <Button size="lg" id="carousel-btn">Read their Stories</Button>
                     </Link>
                 </Carousel.Caption>

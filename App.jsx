@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import NavBar from './src/components/NavBar'
 import Home from './src/components/Home'
 import Program from './src/components/program'
@@ -8,7 +7,8 @@ import Involve from './src/components/Involve'
 import Donate from './src/components/Donate'
 import About from './src/components/About'
 import Contact from './src/components/Contact'
-import Class001 from './src/components/Class001'
+// import Class001 from './src/components/Class001'
+import Stories from './src/components/Stories'
 import './src/App.css'
 import { Route, Routes } from 'react-router-dom'
 
@@ -27,7 +27,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
 
-          <Route path="/class001" element={<Class001 />} />
+          <Route path="/stories" element={<Stories />} />
           
           <Route path="*" element={<Home />} />
         </Routes>

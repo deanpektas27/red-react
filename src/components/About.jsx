@@ -59,9 +59,10 @@ export default function About() {
                     leadership roles, and community service initiatives.
                   </p>
                   <p id="nick-summary">
-                    Since graduating, Nick has worked as a Campus Recruiter in
-                    the financial services industry. Additionally, he serves as
-                    a 2nd Lieutenant in the New York Army National Guard.
+                    Since graduating, Nick has built his career in campus
+                    recruiting within the financial services industry.
+                    Additionally, he serves as a 1st Lieutenant in the Army
+                    National Guard.
                   </p>
                   <p id="nick-summary">
                     Nick founded RED, believing that underrepresented college

@@ -3,7 +3,7 @@ import './../index.css'
 import { useEffect, useState } from 'react';
 import { Button } from 'react-bootstrap';
 import { Modal } from 'react-bootstrap';
-import Data from './../assets/student-data.json'
+import Data from './../assets/class001data.json'
 import Abdul from './../assets/class001/Abdul-min.png';
 import Diogo from './../assets/class001/Diogo-min.png';
 import Edryan from './../assets/class001/Edryan-min.png';

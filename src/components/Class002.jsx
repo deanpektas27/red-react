@@ -3,18 +3,16 @@ import './../index.css'
 import { useEffect, useState } from 'react';
 import { Button } from 'react-bootstrap';
 import { Modal } from 'react-bootstrap';
-import Data from './../assets/student-data.json'
-import Abdul from './../assets/class001/Abdul-min.png';
-import Diogo from './../assets/class001/Diogo-min.png';
-import Edryan from './../assets/class001/Edryan-min.png';
-import Gabriel from './../assets/class001/Gabriel-min.png';
-import Jason from './../assets/class001/Jason-min.png';
-import Jazmin from './../assets/class001/Jazmin-min.png';
-import Juliana from './../assets/class001/Juliana-min.png';
-import Katellyn from './../assets/class001/Katellyn-min.png';
-import Natalia from './../assets/class001/Natalia-min.png';
-import Nick from './../assets/class001/Nick-min.png';
-import Yero from './../assets/class001/Yero-min.png';
+import Data from './../assets/class002data.json'
+import Nabeel from './../assets/class002/Nabeel_S.png';
+import Eric from './../assets/class002/Eric_S.png';
+import Frank from './../assets/class002/Frank_S.png';
+import Oscar from './../assets/class002/Oscar_S.png';
+import Cristofer from './../assets/class002/Cristofer_S.png';
+import Jasmin from './../assets/class002/Jasmin_S.png';
+import Lizbeth from './../assets/class002/Lizbeth_S.png';
+import Aminata from './../assets/class002/Aminata_S.png';
+import Melina from './../assets/class002/Melina_S.png';
 
 export default function Class002() {
     const [show, setShow] = useState(false);
@@ -49,7 +47,7 @@ export default function Class002() {
                         <div className="row">
                             <div className="col-lg-4">
                                 <div className="container">
-                                    <img className="headshot" alt="" src={`/assets/${student[0]}-min.png`} />
+                                    <img className="headshot" alt="" src={`/assets/${student[0]}_S.png`} />
                                 </div>
                             </div>
                             <div className="col-lg-8">
@@ -78,66 +76,73 @@ export default function Class002() {
                 <div className="container" id="student-container">
                     <div className="row" id="row1">
                         <div className="col" id="student">
-                            <img className="headshot" src={Katellyn} alt="" onClick={(e) => {
+                            <img className="headshot" src={Nabeel} alt="" onClick={(e) => {
                                 changeStudent(e)
-                            }} data_id="katellyn" />
-                            <h4 className="">Katellyn Ahuatl</h4>
+                            }} data_id="nabeel" />
+                            <h4 className="">Nabeel Elsanousi</h4>
+                            <p>New York University</p>
+                        </div>
+                        <div className="col" id="student">
+                            <img className="headshot" src={Eric} alt="" onClick={(e) => {
+                                changeStudent(e)
+                            }} data_id="eric" />
+                            <h4 className="">Eric Gonzalez</h4>
+                            <p>Fordham University</p>
+                        </div>
+                        <div className="col" id="student">
+                            <img className="headshot" src={Frank} alt="" onClick={(e) => {
+                                changeStudent(e)
+                            }} data_id="frank" />
+                            <h4 className="">Frank Hernandez</h4>
                             <p>CUNY Baruch College</p>
                         </div>
                         <div className="col" id="student">
-                            <img className="headshot" src={Edryan} alt="" onClick={(e) => {
+                            <img className="headshot" src={Oscar} alt="" onClick={(e) => {
                                 changeStudent(e)
-                            }} data_id="edryan" />
-                            <h4 className="">Edryan Canario</h4>
-                            <p>CUNY Baruch College</p>
-                        </div>
-                        <div className="col" id="student">
-                            <img className="headshot" src={Yero} alt="" onClick={(e) => {
-                                changeStudent(e)
-                            }} data_id="yero" />
-                            <h4 className="">Yero Diamanka</h4>
-                            <p>University of Chicago</p>
-                        </div>
-                        <div className="col" id="student">
-                            <img className="headshot" src={Natalia} alt="" onClick={(e) => {
-                                changeStudent(e)
-                            }} data_id="natalia" />
-                            <h4 className="">Natalia Diaz Villatoro</h4>
-                            <p>Manhattan College</p>
+                            }} data_id="oscar" />
+                            <h4 className="">Oscar Lopez</h4>
+                            <p>University of Minnesota</p>
                         </div>
                     </div>
                     <div className="row" id="row2">
                         <div className="col" id="student">
-                            <img className="headshot" src={Gabriel} alt="" onClick={(e) => {
+                            <img className="headshot" src={Cristofer} alt="" onClick={(e) => {
                                 changeStudent(e)
-                            }} data_id="gabriel" />
-                            <h4 className="">Gabriel Fernandez</h4>
+                            }} data_id="cristofer" />
+                            <h4 className="">Cristofer Martinez</h4>
                             <p>CUNY Baruch College</p>
                         </div>
                         <div className="col" id="student">
-                            <img className="headshot" src={Abdul} alt="" onClick={(e) => {
+                            <img className="headshot" src={Jasmin} alt="" onClick={(e) => {
                                 changeStudent(e)
-                            }} data_id="abdul" />
-                            <h4 className="">Abdul Ganiyuajani</h4>
-                            <p>CUNY City College</p>
-                        </div>
-                        <div className="col" id="student">
-                            <img className="headshot" src={Juliana} alt="" onClick={(e) => {
-                                changeStudent(e)
-                            }} data_id="juliana" />
-                            <h4 className="">Juliana Martinez</h4>
-                            <p>CUNY Hunter College</p>
-                        </div>
-                        <div className="col" id="student">
-                            <img className="headshot" src={Jason} alt="" onClick={(e) => {
-                                changeStudent(e)
-                            }} data_id="jason" />
-                            <h4 className="">Jason Maza</h4>
+                            }} data_id="jasmin" />
+                            <h4 className="">Jasmin Medina</h4>
                             <p>CUNY Baruch College</p>
+                        </div>
+                        <div className="col" id="student">
+                            <img className="headshot" src={Lizbeth} alt="" onClick={(e) => {
+                                changeStudent(e)
+                            }} data_id="lizbeth" />
+                            <h4 className="">Lizbeth Ramirez</h4>
+                            <p>Vanderbilt University</p>
+                        </div>
+                        <div className="col" id="student">
+                            <img className="headshot" src={Aminata} alt="" onClick={(e) => {
+                                changeStudent(e)
+                            }} data_id="aminata" />
+                            <h4 className="">Aminata Soumare</h4>
+                            <p>Haverford College</p>
                         </div>
                     </div>
                     <div className="row" id="row3">
                         <div className="col" id="student">
+                            <img className="headshot" src={Melina} alt="" onClick={(e) => {
+                                changeStudent(e)
+                            }} data_id="melina" />
+                            <h4 className="">Melina Valencia</h4>
+                            <p>College of the Holy Cross</p>
+                        </div>
+                        {/* <div className="col" id="student">
                             <img className="headshot" src={Diogo} alt="" onClick={(e) => {
                                 changeStudent(e)
                             }} data_id="diogo" />
@@ -158,7 +163,7 @@ export default function Class002() {
                             <h4 className="">Jazmin Solano</h4>
                             <p>CUNY Baruch College</p>
                         </div>
-                        <div className="col empty-student" id="student"></div>
+                        <div className="col empty-student" id="student"></div> */}
                     </div>
                 </div>
             </div>

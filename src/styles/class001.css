@@ -26,6 +26,10 @@
     margin-top: 20px; */
 }
 
+h3 {
+    font-family: 'LTAsusBold';
+}
+
 #row1 #student h4, #row2 #student h4, #row3 #student h4 {
     font-family: 'LTAsusBold';
     margin-bottom: 0!important;

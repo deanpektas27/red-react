@@ -61,9 +61,9 @@ export default function Class001() {
                             </div>
                             <div className="pb-2">
                                 <div className="container">
-                                    <p id="modal-student-school">{student[3] + student[4]} + {student[5]}</p>
-                                    {/* <p id="modal-student-school">{student[4]}</p>
-                                    <p id="modal-student-school">{student[5]}</p> */}
+                                    <p id="modal-student-school">{student[3]}</p>
+                                    <p id="modal-student-school">{student[4]}</p>
+                                    <p id="modal-student-school">{student[5]}</p>
                                 </div>
                             </div>
                         </div>  

@@ -19,7 +19,7 @@ export default function Stories() {
             </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item eventKey="1">
-            <Accordion.Header>CLASS 002</Accordion.Header>
+            <Accordion.Header>CLASS 002 - "THE CATALYSTS"</Accordion.Header>
             <Accordion.Body>
               <Class002 />
             </Accordion.Body>

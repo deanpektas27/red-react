@@ -71,7 +71,7 @@ export default function Class002() {
 
             <div className="main-headline pb-5">
                 <div className="container class-title">
-                    <h1 className="class-title-header">CLASS 002</h1>
+                    <h1 className="class-title-header">CLASS 002 - "THE CATALYSTS"</h1>
                 </div>
                 <div className="container" id="student-container">
                     <div className="row" id="row1">

@@ -58,10 +58,10 @@ export default function Apply() {
                   <h2 className="m-auto mb-4 underline">DURING THE ACADEMY</h2>
                   <div className="container expect-content-container">
                     <h2>
-                      <span id="triangle-bullet">{`\u2023`}</span> Programming
+                      <span id="triangle-bullet">{`\u2023`}</span> Commitment
                     </h2>
                     <p id="what-to-expect-content">
-                      Commitment, You will participate in 40 workshops, totaling
+                      You will participate in 40 workshops, totaling
                       95 hours of programming.
                     </p>
                     <h2>

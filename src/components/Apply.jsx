@@ -111,7 +111,7 @@ export default function Apply() {
             >
               Apply Here
             </Button> */}
-            <h3>Applications will open on February 25, 2025</h3>
+            <h3>Applications will open on February 24, 2025</h3>
             {/* </Link> */}
           </div>
         </Container>

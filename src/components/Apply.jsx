@@ -101,17 +101,17 @@ export default function Apply() {
         <Container className="mb-5 mt-5">
           <div className="apply-box">
             {/* <Link to='/contact'> */}
-            {/* <Button
+            <h3>The application deadline is May 10, 11:59 PM EST</h3>
+            <Button
               size="lg"
               onClick={handleScrollToTop}
               className="apply-btn mb-4"
               id="btn"
-              href="https://docs.google.com/forms/u/1/d/e/1FAIpQLSczpKyLLwvTUjtnfuEn8n8ph0kChcjqZcBPbzswDBzHSqamSA/viewform"
+              href="https://docs.google.com/forms/d/e/1FAIpQLScStiyyGDcw-AO-2s428EKjngbaEOAoETx0oi7HYc5OhStgSA/viewform?pli=1"
               target="_blank"
             >
               Apply Here
-            </Button> */}
-            <h3>Applications will open on February 24, 2025</h3>
+            </Button>
             {/* </Link> */}
           </div>
         </Container>

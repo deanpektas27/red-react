@@ -33,6 +33,7 @@ export default function Apply() {
               </li>
               <li>
                 Undergraduate student attending an accredited college/university
+                in the New York City metro area
               </li>
               <li>Graduation date no earlier than May 2027</li>
               <li>
@@ -61,8 +62,8 @@ export default function Apply() {
                       <span id="triangle-bullet">{`\u2023`}</span> Commitment
                     </h2>
                     <p id="what-to-expect-content">
-                      You will participate in 40 workshops, totaling
-                      95 hours of programming.
+                      You will participate in 40 workshops, totaling 95 hours of
+                      programming.
                     </p>
                     <h2>
                       <span id="triangle-bullet">{`\u2023`}</span> Professional
@@ -143,8 +144,8 @@ export default function Apply() {
             <div>
               <h2>When will the workshops take place?</h2>
               <p>
-                <b>Orientation:</b> Saturday, May 31, from 10:00 AM to
-                12:30 PM EST.
+                <b>Orientation:</b> Saturday, May 31, from 10:00 AM to 12:30 PM
+                EST.
                 <br />
                 <strong>Workshops:</strong> June 2 to August 20 on Mondays and
                 Wednesdays, 6:00 PM to 8:30 PM EST. From August 30 to November
